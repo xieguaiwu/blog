@@ -1047,6 +1047,11 @@ pwa:
 Open_Graph_meta:
   enable: true
   option:
+    # 全站默认分享卡片图（A1 死之岛裁出的 1200x630）。文章设了 cover_type: img 时
+    # 会自动改用该文章封面。open_graph 不会再做 URL 转换，所以这里必须写绝对地址。
+    image: https://xieguaiwu.github.io/blog/img/og-cover.jpg
+    twitter_card: summary_large_image
+    twitter_image: https://xieguaiwu.github.io/blog/img/og-cover.jpg
   # twitter_card:
   # twitter_image:
   # twitter_id:
@@ -1067,12 +1072,6 @@ css_prefix: true
 inject:
   head:
     - <link rel="stylesheet" href="/css/custom.css">
-    # 社交分享卡片图：主题不带 og:image，这里补一张由 A1（死之岛）裁出的图
-    - <meta property="og:image" content="https://xieguaiwu.github.io/blog/img/og-cover.jpg">
-    - <meta property="og:image:width" content="1200">
-    - <meta property="og:image:height" content="630">
-    - <meta name="twitter:card" content="summary_large_image">
-    - <meta name="twitter:image" content="https://xieguaiwu.github.io/blog/img/og-cover.jpg">
     - <link rel="stylesheet" href="/css/fonts.css">
     - <link rel="stylesheet" href="https://registry.npmmirror.com/lxgw-wenkai-screen-web/latest/files/style.css">
   bottom:

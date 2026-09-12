@@ -7,6 +7,7 @@ tags:
   - 绘画
 description: 站点背景用到的 16 套拼贴分别出自哪些画作，以及为什么挑了这一组。
 cover: /img/bg/art/cover/C1.avif
+cover_type: img
 ---
 
 站点背景的每一套拼贴都由公有领域画作合成。下面是完整的取材清单。

@@ -7,6 +7,7 @@ tags:
   - 笔记
 description: 站点从 AstroPaper 换成 Hexo + Butterfly，背景换成 16 套随机切换的艺术拼贴。这里记一下怎么搭的、怎么换图。
 cover: /img/bg/art/cover/A1.avif
+cover_type: img
 ---
 
 ## 换了什么
