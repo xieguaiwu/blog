@@ -1,0 +1,16 @@
+# 友情链接
+#
+# 想加友链，按下面的格式往 link_list 里追加即可：
+#
+# - class_name: 友情链接
+#   class_desc: 一句话说明
+#   link_list:
+#     - name: 站点名
+#       link: https://example.com
+#       avatar: https://example.com/avatar.png
+#       descr: 一句话介绍
+#       siteshot: https://example.com/shot.webp   # 可选
+
+- class_name: 友情链接
+  class_desc: 想交换友链的话，欢迎联系我。
+  link_list: []

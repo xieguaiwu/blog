@@ -1,0 +1,204 @@
+/* =========================================================================
+   艺术混搭背景 — 视觉调整
+   -------------------------------------------------------------------------
+   站点背景由 16 套艺术拼贴随机切换（见 _config.butterfly.yml 的 background）。
+   本文件只负责两件事：
+     1. 让背景「看得见」——头图与页脚透明，卡片半透明毛玻璃；
+     2. 让文字「读得清」——背景加渐变遮罩，标题加投影。
+   ========================================================================= */
+
+/* ---------------------------------------------------------------- 背景本身 */
+
+#web_bg {
+  background-attachment: fixed !important;
+}
+
+/* 浅色模式：上重下重的渐变遮罩（顶部给导航、底部给页脚） */
+#web_bg::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(
+    180deg,
+    rgba(12, 11, 10, 0.62) 0%,
+    rgba(12, 11, 10, 0.34) 38%,
+    rgba(12, 11, 10, 0.42) 70%,
+    rgba(12, 11, 10, 0.66) 100%
+  );
+}
+
+/* 深色模式：主题默认已压 0.7 黑，这里补同款渐变方向 */
+[data-theme='dark'] #web_bg::before {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.52) 0%,
+    rgba(0, 0, 0, 0.38) 38%,
+    rgba(0, 0, 0, 0.46) 70%,
+    rgba(0, 0, 0, 0.68) 100%
+  );
+}
+
+/* ------------------------------------------------------------ 头图与页脚 */
+
+#page-header,
+#footer {
+  background: transparent !important;
+}
+
+#page-header::before,
+#footer::before,
+[data-theme='dark'] #page-header::before,
+[data-theme='dark'] #footer::before {
+  background: transparent !important;
+}
+
+/* 首页横幅：底部渐隐，和正文卡片自然衔接 */
+#page-header.full_page::after {
+  content: '';
+  position: absolute;
+  inset: auto 0 0 0;
+  height: 28%;
+  pointer-events: none;
+  background: linear-gradient(180deg, transparent, rgba(12, 11, 10, 0.55));
+}
+
+/* 标题与副标题：投影保证在任意画面上的可读性 */
+#site-title,
+#site-subtitle,
+#page-site-info h1 {
+  text-shadow: 0 2px 16px rgba(0, 0, 0, 0.9), 0 1px 3px rgba(0, 0, 0, 0.75);
+}
+
+#site-subtitle {
+  font-size: 0.95rem;
+  line-height: 1.9;
+  opacity: 0.94;
+}
+
+#site-subtitle i {
+  font-style: italic;
+}
+
+#scroll-down {
+  opacity: 0.85;
+}
+
+/* 导航栏：半透明墨色，滚动后不遮挡画面观感 */
+#nav {
+  background: rgba(18, 16, 14, 0.42);
+  backdrop-filter: blur(8px) saturate(130%);
+  -webkit-backdrop-filter: blur(8px) saturate(130%);
+}
+
+#nav a,
+#nav .site-name,
+#nav i {
+  color: #f2ece1 !important;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.7);
+}
+
+/* ---------------------------------------------------------------- 卡片 */
+
+:root {
+  --art-card-light: rgba(246, 241, 232, 0.9);
+  --art-card-dark: rgba(22, 20, 18, 0.86);
+  --art-border-light: 1px solid rgba(176, 141, 87, 0.3);
+  --art-border-dark: 1px solid rgba(176, 141, 87, 0.22);
+  --art-blur: blur(6px) saturate(140%);
+}
+
+#recent-posts > .recent-post-item,
+#aside-content .card-widget,
+div#post,
+div#page,
+div#archive {
+  background: var(--art-card-light);
+  backdrop-filter: var(--art-blur);
+  -webkit-backdrop-filter: var(--art-blur);
+  border: var(--art-border-light);
+  border-radius: 18px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.26);
+}
+
+[data-theme='dark'] #recent-posts > .recent-post-item,
+[data-theme='dark'] #aside-content .card-widget,
+[data-theme='dark'] div#post,
+[data-theme='dark'] div#page,
+[data-theme='dark'] div#archive {
+  background: var(--art-card-dark);
+  border: var(--art-border-dark);
+}
+
+/* 首页卡片封面：轻微暗角，呼应画作的装裱感 */
+#recent-posts .recent-post-item .post_cover::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.14), rgba(0, 0, 0, 0.34));
+}
+
+#recent-posts .recent-post-item .post_cover {
+  position: relative;
+}
+
+/* 文章正文图片：细金边，像挂在暗墙上的画 */
+#article-container img {
+  border-radius: 4px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.35);
+}
+
+/* 文章页头图：让标题压在下方的暗角上 */
+#page-header.post-bg::after {
+  content: '';
+  position: absolute;
+  inset: auto 0 0 0;
+  height: 45%;
+  pointer-events: none;
+  background: linear-gradient(180deg, transparent, rgba(12, 11, 10, 0.6));
+}
+
+/* --------------------------------------------------------- 浮动工具按钮 */
+
+#rightside > div > button,
+#rightside > div > a {
+  background: rgba(32, 29, 25, 0.72);
+  color: #e8e0d2;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+
+#rightside > div > button:hover,
+#rightside > div > a:hover {
+  background: rgba(176, 141, 87, 0.85);
+  color: #1a1714;
+}
+
+/* ------------------------------------------------------------ 搜索与分页 */
+
+#local-search .search-dialog,
+#search-mask + .search-dialog {
+  background: var(--art-card-light);
+}
+
+[data-theme='dark'] #local-search .search-dialog {
+  background: var(--art-card-dark);
+}
+
+#pagination .page-number.current {
+  background: #b08d57;
+  color: #16140f;
+}
+
+/* -------------------------------------------------------------- 细字修正 */
+
+#footer .framework-info,
+#footer .copyright {
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.8);
+}
+
+#footer,
+#footer a {
+  color: #efe8dc !important;
+}
