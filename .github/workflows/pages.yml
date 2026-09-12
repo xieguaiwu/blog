@@ -17,6 +17,10 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    # Hexo 按进程时区解析 front-matter 日期（_config.yml 的 timezone 不生效），
+    # 不锁定时区的话，同一篇文章在本地（CST）与 CI（UTC）会落到不同日期。
+    env:
+      TZ: Asia/Shanghai
     steps:
       - uses: actions/checkout@v4
 

@@ -1067,6 +1067,12 @@ css_prefix: true
 inject:
   head:
     - <link rel="stylesheet" href="/css/custom.css">
+    # 社交分享卡片图：主题不带 og:image，这里补一张由 A1（死之岛）裁出的图
+    - <meta property="og:image" content="https://xieguaiwu.github.io/blog/img/og-cover.jpg">
+    - <meta property="og:image:width" content="1200">
+    - <meta property="og:image:height" content="630">
+    - <meta name="twitter:card" content="summary_large_image">
+    - <meta name="twitter:image" content="https://xieguaiwu.github.io/blog/img/og-cover.jpg">
     - <link rel="stylesheet" href="/css/fonts.css">
     - <link rel="stylesheet" href="https://registry.npmmirror.com/lxgw-wenkai-screen-web/latest/files/style.css">
   bottom:
