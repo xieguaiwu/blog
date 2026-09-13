@@ -1,0 +1,59 @@
+- name: "GK Research Paper"
+  description: "Graduate-level academic paper — multi-chapter study with empirical analysis and case studies"
+  progress: 85
+  status: active
+  category: paper
+
+- name: "SHARK Quant System"
+  description: "A-share factor research engine with live paper trading and automated signal generation"
+  progress: 70
+  status: active
+  category: quant
+
+- name: "VERSION2.5 Strategy"
+  description: "American multi-factor quantitative strategy with paper trading and revival research"
+  progress: 65
+  status: active
+  category: quant
+
+- name: "Wittgenstein Corpus"
+  description: "Seven-volume facsimile and transcription edition of Wittgenstein's coded passages"
+  progress: 98
+  status: published
+  category: publication
+
+- name: "Android App Suite"
+  description: "Five accessibility and utility Android apps submitted for F-Droid inclusion"
+  progress: 90
+  status: review
+  category: code
+
+- name: "LLM Price Benchmark"
+  description: "Comprehensive pricing and capability tracking for open-weight language models"
+  progress: 80
+  status: active
+  category: research
+
+- name: "Personal Academic Blog"
+  description: "Hexo + Butterfly blog with bilingual support and artistic backgrounds"
+  progress: 95
+  status: launched
+  category: web
+
+- name: "Novel Research"
+  description: "Weimar Republic historical research for fiction writing"
+  progress: 40
+  status: research
+  category: writing
+
+- name: "Remote Compute Cluster"
+  description: "Multi-node pi-agent cluster for distributed research tasks"
+  progress: 85
+  status: active
+  category: infra
+
+- name: "ML Training Pipeline"
+  description: "Automated training infrastructure with watchdog and monitoring"
+  progress: 75
+  status: active
+  category: infra

@@ -1,5 +1,6 @@
 ---
 title: 关于
+lang: zh-CN
 ---
 
 # 关于本站
@@ -27,8 +28,10 @@ Van Gogh、Kokoschka、Bosch、Tanner、Waterhouse、Roberts。
 
 ## 关于我
 
-- GitHub：[xieguaiwu](https://github.com/xieguiawu)
+- GitHub：[xieguaiwu](https://github.com/xieguaiwu)
 - 邮箱：xieguiawu@163.com
+
+> 📖 Also available in [English](/about/).
 
 ## 许可
 

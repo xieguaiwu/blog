@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects — xieguiawu's Blog</title>
+<style>
+:root {
+  --gold: #B08D57;
+  --gold-light: #D4A85C;
+  --dark: #1a1a2e;
+  --darker: #0f0f1a;
+  --card: #22223a;
+  --card-hover: #2a2a45;
+  --text: #e0e0e0;
+  --text-dim: #999;
+  --border: #333355;
+  --green: #4caf50;
+  --orange: #ff9800;
+  --blue: #2196f3;
+  --red: #f44336;
+  --purple: #9c27b0;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'LXGW WenKai GB Screen', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: var(--darker);
+  color: var(--text);
+  min-height: 100vh;
+  padding: 2rem 1rem;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--gold);
+  margin-bottom: 0.5rem;
+}
+
+.header p {
+  color: var(--text-dim);
+  font-size: 0.95rem;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+@media (min-width: 640px) {
+  .projects-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.project-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.25rem;
+  transition: all 0.2s ease;
+}
+
+.project-card:hover {
+  background: var(--card-hover);
+  border-color: var(--gold);
+  transform: translateY(-1px);
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0.75rem;
+}
+
+.project-name {
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--text);
+  line-height: 1.3;
+}
+
+.project-status {
+  font-size: 0.7rem;
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  white-space: nowrap;
+  margin-left: 0.5rem;
+  flex-shrink: 0;
+}
+
+.status-active { background: rgba(76, 175, 80, 0.2); color: var(--green); }
+.status-published { background: rgba(33, 150, 243, 0.2); color: var(--blue); }
+.status-review { background: rgba(255, 152, 0, 0.2); color: var(--orange); }
+.status-launched { background: rgba(156, 39, 176, 0.2); color: var(--purple); }
+.status-research { background: rgba(176, 141, 87, 0.2); color: var(--gold); }
+
+.project-desc {
+  font-size: 0.85rem;
+  color: var(--text-dim);
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.progress-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.progress-bar {
+  flex: 1;
+  height: 6px;
+  background: var(--border);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  border-radius: 3px;
+  transition: width 0.6s ease;
+}
+
+.progress-fill.green { background: var(--green); }
+.progress-fill.orange { background: var(--orange); }
+.progress-fill.blue { background: var(--blue); }
+.progress-fill.purple { background: var(--purple); }
+.progress-fill.gold { background: var(--gold); }
+
+.progress-text {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--gold-light);
+  min-width: 3rem;
+  text-align: right;
+}
+
+.footer-note {
+  text-align: center;
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+  color: var(--text-dim);
+  font-size: 0.8rem;
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <h1>Active Projects</h1>
+    <p>Research, writing, and development — current progress overview</p>
+  </div>
+
+  <div class="projects-grid">
+    <!-- GK Paper -->
+    <div class="project-card">
+      <div class="project-header">
+        <span class="project-name">GK Research Paper</span>
+        <span class="project-status status-active">Active</span>
+      </div>
+      <div class="project-desc">Graduate-level academic paper — multi-chapter study with empirical analysis and case studies</div>
+      <div class="progress-wrapper">
+        <div class="progress-bar"><div class="progress-fill green" style="width: 85%"></div></div>
+        <span class="progress-text">85%</span>
+      </div>
+    </div>
+
+    <!-- SHARK -->
+    <div class="project-card">
+      <div class="project-header">
+        <span class="project-name">SHARK Quant System</span>
+        <span class="project-status status-active">Active</span>
+      </div>
+      <div class="project-desc">A-share factor research engine with live paper trading and automated signal generation</div>
+      <div class="progress-wrapper">
+        <div class="progress-bar"><div class="progress-fill green" style="width: 70%"></div></div>
+        <span class="progress-text">70%</span>
+      </div>
+    </div>
+
+    <!-- VERSION2.5 -->
+    <div class="project-card">
+      <div class="project-header">
+        <span class="project-name">VERSION2.5 Strategy</span>
+        <span class="project-status status-active">Active</span>
+      </div>
+      <div class="project-desc">American multi-factor quantitative strategy with paper trading and revival research</div>
+      <div class="progress-wrapper">
+        <div class="progress-bar"><div class="progress-fill orange" style="width: 65%"></div></div>
+        <span class="progress-text">65%</span>
+      </div>
+    </div>
+
+    <!-- Wittgenstein -->
+    <div class="project-card">
+      <div class="project-header">
+        <span class="project-name">Wittgenstein Corpus</span>
+        <span class="project-status status-published">Published</span>
+      </div>
+      <div class="project-desc">Seven-volume facsimile &amp; transcription edition of Wittgenstein's coded passages (v1.1)</div>
+      <div class="progress-wrapper">
+        <div class="progress-bar"><div class="progress-fill blue" style="width: 98%"></div></div>
+        <span class="progress-text">98%</span>
+      </div>
+    </div>
+
+    <!-- Android -->
+    <div class="project-card">
+      <div class="project-header">
+        <span class="project-name">Android App Suite</span>
+        <span class="project-status status-review">Review</span>
+      </div>
+      <div class="project-desc">Five accessibility &amp; utility Android apps submitted for F-Droid inclusion</div>
+      <div class="progress-wrapper">
+        <div class="progress-bar"><div class="progress-fill orange" style="width: 90%"></div></div>
+        <span class="progress-text">90%</span>
+      </div>
+    </div>
+
+    <!-- LLM Price -->
+    <div class="project-card">
+      <div class="project-header">
+        <span class="project-name">LLM Price Benchmark</span>
+        <span class="project-status status-active">Active</span>
+      </div>
+      <div class="project-desc">Comprehensive pricing and capability tracking for open-weight language models</div>
+      <div class="progress-wrapper">
+        <div class="progress-bar"><div class="progress-fill green" style="width: 80%"></div></div>
+        <span class="progress-text">80%</span>
+      </div>
+    </div>
+
+    <!-- Blog -->
+    <div class="project-card">
+      <div class="project-header">
+        <span class="project-name">Personal Academic Blog</span>
+        <span class="project-status status-launched">Launched</span>
+      </div>
+      <div class="project-desc">Hexo + Butterfly blog with bilingual support and 14 published articles</div>
+      <div class="progress-wrapper">
+        <div class="progress-bar"><div class="progress-fill purple" style="width: 95%"></div></div>
+        <span class="progress-text">95%</span>
+      </div>
+    </div>
+
+    <!-- Novel -->
+    <div class="project-card">
+      <div class="project-header">
+        <span class="project-name">Novel Research</span>
+        <span class="project-status status-research">Research</span>
+      </div>
+      <div class="project-desc">Weimar Republic historical research and source collection for fiction writing</div>
+      <div class="progress-wrapper">
+        <div class="progress-bar"><div class="progress-fill gold" style="width: 40%"></div></div>
+        <span class="progress-text">40%</span>
+      </div>
+    </div>
+
+    <!-- Cluster -->
+    <div class="project-card">
+      <div class="project-header">
+        <span class="project-name">Remote Compute Cluster</span>
+        <span class="project-status status-active">Active</span>
+      </div>
+      <div class="project-desc">Multi-node distributed research infrastructure with automated task routing</div>
+      <div class="progress-wrapper">
+        <div class="progress-bar"><div class="progress-fill green" style="width: 85%"></div></div>
+        <span class="progress-text">85%</span>
+      </div>
+    </div>
+
+    <!-- ML Pipeline -->
+    <div class="project-card">
+      <div class="project-header">
+        <span class="project-name">ML Training Pipeline</span>
+        <span class="project-status status-active">Active</span>
+      </div>
+      <div class="project-desc">Automated training infrastructure with watchdog monitoring and GPU scheduling</div>
+      <div class="progress-wrapper">
+        <div class="progress-bar"><div class="progress-fill green" style="width: 75%"></div></div>
+        <span class="progress-text">75%</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-note">
+    Progress reflects overall completion — active projects iterate continuously.<br>
+    Last updated: September 2026
+  </div>
+</div>
+</body>
+</html>

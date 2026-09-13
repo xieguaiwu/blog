@@ -1,5 +1,7 @@
 ---
 title: About
+lang: en
+lang_alt: zh-CN
 ---
 
 # About This Site
@@ -21,6 +23,8 @@ The site features 16 sets of hand-crafted artistic collages as backgrounds, **ra
 Featured artists include: Böcklin, Goya, Delacroix, Stuck, Moreau, Simberg, Ensor, Cabanel, Van Gogh, Kokoschka, Bosch, Tanner, Waterhouse, Roberts.
 
 On narrow screens (≤ 768px), vertical variants are automatically swapped in.
+
+> 📖 Also available in [中文](/zh-CN/about/).
 
 ## About Me
 

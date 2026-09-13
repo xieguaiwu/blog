@@ -10,6 +10,6 @@ lang: en
 lang_alt: zh-CN
 ---
 
-A critical review of the biographical literature on Yukio Mishima — questioning the voyeuristic lens through which his psychology is often examined.
+A critical review of the biographical literature on Yukio Mishima, arguing that the dominant approach — treating Mishima as a mere symptom of his era's pathologies — systematically dehumanizes its subject. The reviewer contends that a responsible biography must balance psychological explanation against the irreducible individuality of its subject, and that the existing works fail precisely at this point.
 
 > 📖 Also available in [中文](/zh-CN/2025/01/15/mishima-biography-review/).

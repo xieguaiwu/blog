@@ -7,6 +7,7 @@ description: "立场：与许多不甚了解日本近现代历史的声音所坚
 cover: /img/bg/art/cover/D1.avif
 cover_type: img
 lang: zh-CN
+slug: knausgaard-craft-end
 ---
 
 ## 三岛由纪夫思想概述：

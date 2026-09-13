@@ -7,6 +7,7 @@ description: 结论：大师一生中排名前三的作品，精致而客观的�
 cover: /img/bg/art/cover/B1.avif
 cover_type: img
 lang: zh-CN
+slug: salo-review
 ---
 
 结论：大师一生中排名前三的作品，精致而客观的自然主义视听语言是对萨德作品的成功驾驭，而从其中体现出的六七十年代文化批判的底色也有着相当价值。
