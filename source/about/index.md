@@ -28,7 +28,8 @@ On narrow screens (≤ 768px), vertical variants are automatically swapped in.
 
 ## About Me
 
-- GitHub: [xieguaiwu](https://github.com/xieguaiwu)
+- GitHub: [xieguaiwu](https://github.com/xieguiawu)
+- GitHub Profile: [xieguaiwu](https://github.com/xieguaiwu/xieguiawu)
 - Email: xieguaiwu@163.com
 
 ## License

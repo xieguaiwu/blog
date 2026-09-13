@@ -33,7 +33,7 @@
   document.getElementsByClassName('footer-other')[0].innerHTML +=
     '<div>本站已运行 <span id="website-runtime"></span></div>' +
     '"The deepest and most organic death is death in solitude, when even light becomes a principle of death." — E.M. Cioran' +
-    '<div style="margin-top:0.3rem;font-size:0.75rem;color:#666;">Inspired by <a href="https://zhdbk3.github.io/" style="color:#B08D57;" target="_blank" rel="noopener">zhdbk3</a> &middot; Framework &amp; configuration reference</div>';
+    '<div style="margin-top:0.3rem;font-size:0.75rem;color:#666;">Inspired by <a href="https://zhdbk3.github.io/" style="color:#B08D57;" target="_blank" rel="noopener">zhdbk3</a> &middot; Framework &amp; configuration reference &middot; <a href="https://github.com/xieguaiwu/xieguaiwu" style="color:#B08D57;" target="_blank" rel="noopener">GitHub</a></div>';
 
   // 每秒刷新
   setInterval(() => {
