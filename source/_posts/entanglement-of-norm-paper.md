@@ -1,7 +1,7 @@
 ---
 title: "The Entanglement of Norm: A Structural Study During the Congress of Vienna and the Revolutions of 1848"
 date: 2026-02-01 00:00:00
-categories: [人文]
+categories: [Political Philosophy]
 tags: [论文, 国际关系, 历史]
 description: "This study examines the formation and crisis of international norms between the Congress of Vienna (1815) and the Revolutions of 1848."
 cover: /img/bg/art/cover/C1.avif

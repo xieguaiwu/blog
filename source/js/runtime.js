@@ -32,7 +32,8 @@
   // 在页脚插入需要的元素
   document.getElementsByClassName('footer-other')[0].innerHTML +=
     '<div>本站已运行 <span id="website-runtime"></span></div>' +
-    '<i>目标和希望会枯萎，但人们自己不会。</i>';
+    '"The deepest and most organic death is death in solitude, when even light becomes a principle of death." — E.M. Cioran' +
+    '<div style="margin-top:0.3rem;font-size:0.75rem;color:#666;">Inspired by <a href="https://zhdbk3.github.io/" style="color:#B08D57;" target="_blank" rel="noopener">zhdbk3</a> &middot; Framework &amp; configuration reference</div>';
 
   // 每秒刷新
   setInterval(() => {

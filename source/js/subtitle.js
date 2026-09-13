@@ -11,28 +11,28 @@
       source: null,
     },
     {
-      content: '生如夏花之绚烂，死如秋叶之静美。',
-      source: '泰戈尔《飞鸟集》',
-    },
-    {
-      content: '美即是永恒的喜悦。',
-      source: '济慈《恩底弥翁》',
-    },
-    {
       content: '目标和希望会枯萎，但人们自己不会。',
       source: null,
     },
     {
-      content: '死去何所道，托体同山阿。',
-      source: '陶渊明《拟挽歌辞》',
+      content: 'The deepest and most organic death is death in solitude, when even light becomes a principle of death.',
+      source: 'E.M. Cioran, *On the Heights of Despair*',
     },
     {
-      content: '最深邃和最根本的死亡，就是在孤独中死去，届时就连光亮都会变成死亡的成分。',
-      source: '齐奥朗《在绝望之巅》',
+      content: 'Life is so astonishingly short. Now in memory it presses together so that I can scarcely comprehend how a young man can decide to ride to the next village without fearing that — quite apart from unhappy accidents — even the time of ordinary, happily passing life is far from sufficient for such a ride.',
+      source: 'Franz Kafka, *The Next Village*',
     },
     {
-      content: '此情可待成追忆，只是当时已惘然。',
-      source: '李商隐《锦瑟》',
+      content: 'like a ritual dance around a center in which a mighty will stands paralyzed',
+      source: 'Rainer Maria Rilke, *The Panther*',
+    },
+    {
+      content: 'She kept talking. She told everyone. There was more to it, and she was trying to get it talked out. After a time, she quit trying.',
+      source: 'Raymond Carver, *Why Don\'t You Dance?*',
+    },
+    {
+      content: 'Overgrown fields in September — rice spikes branch and fork; / Low-flying fireflies trace the sloping path. / Through rock-veined water, drops onto sand; / Ghost-lights like lacquer dot the pine-bloom.',
+      source: 'Li Hao, *Walking in the Southern Mountain Fields* (trans. xieguiawu)',
     },
     {
       content: '所谓经典，就是每次重看都换了一副面孔的画。',

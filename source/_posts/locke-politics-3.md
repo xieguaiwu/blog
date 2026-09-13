@@ -1,7 +1,7 @@
 ---
 title: "The Constitutional Crisis of Democracy: From Bureaucratic Efficiency to the Rule of Technology"
 date: 2026-06-01 00:00:00
-categories: [人文]
+categories: [Political Philosophy]
 tags: [论文, 政治哲学, Locke]
 description: "Locke Politics Paper"
 cover: /img/bg/art/cover/C1.avif

@@ -1,7 +1,7 @@
 ---
 title: 在随波逐流间隙
 date: 2024-12-01 00:00:00
-categories: [随笔]
+categories: [Philosophy of Mind]
 tags: [散文]
 description: 你越发清晰地意识到这种忧郁并非可以被根除的异质，它并非一种实在的疾病，尽管它的确是器质性的变化………
 cover: /img/bg/art/cover/A2.avif

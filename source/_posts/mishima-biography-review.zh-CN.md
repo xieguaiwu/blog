@@ -1,7 +1,7 @@
 ---
 title: 评《三岛由纪夫传》——有点不公正
 date: 2025-01-15 01:21:21
-categories: [人文]
+categories: [Literary Theory]
 tags: [书评, 三岛由纪夫]
 description: 《三岛由纪夫传》：猎奇者请自便，研究者请审慎
 cover: /img/bg/art/cover/C2.avif

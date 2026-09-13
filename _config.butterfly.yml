@@ -564,8 +564,7 @@ comments:
   # Leave it empty if you don't need comments
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42/Artalk
   # Format of two comments system : Disqus,Waline
-  # 留空 = 关闭评论。要启用 Giscus，先给自己的仓库开 Discussions 并装 giscus App，
-  # 再从 https://giscus.app/ 取 repo / repo_id / category_id 填到下面的 giscus 段。
+  # Giscus 已配置完成（Discussions 已开，giscus App 已装，参数已填）。
   use: Giscus
   # Display the comment name next to the button
   text: true

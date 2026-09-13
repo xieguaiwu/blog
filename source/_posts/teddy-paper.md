@@ -1,7 +1,7 @@
 ---
 title: "Teddy Paper"
 date: 2026-06-25 00:00:00
-categories: [人文]
+categories: [Philosophy of Science]
 tags: [论文]
 description: "Teddy Paper"
 cover: /img/bg/art/cover/D2.avif

@@ -1,7 +1,7 @@
 ---
 title: "Large Language Models and Impossible Language Acquisition: \"False Promise\" or an Overturn of our Current Perspective towards AI"
 date: 2026-02-10 00:00:00
-categories: [技术]
+categories: [Philosophy of Science]
 tags: [论文, 量化, 机器学习]
 description: "In Chomsky's provocative critique \"The False Promise of CHATGPT,\" Large Language Models (LLMs) are characterized as mere pattern predictors that do not acquire languages via intrinsic causal and self-correction structures like humans, therefore are not able to distinguish impossible languages."
 cover: /img/bg/art/cover/D3.avif

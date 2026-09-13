@@ -2,7 +2,7 @@
 title: 十六套背景的来路：一份公有领域绘画清单
 date: 2026-09-13 02:30:00
 categories:
-  - 艺术
+  - Aesthetics
 tags:
   - 绘画
 description: 站点背景用到的 16 套拼贴分别出自哪些画作，以及为什么挑了这一组。

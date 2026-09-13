@@ -1,7 +1,7 @@
 ---
 title: "To What Extent Can Science Threaten Religious and Theistic Belief"
 date: 2026-04-17 00:00:00
-categories: [人文]
+categories: [Philosophy of Religion]
 tags: [论文, 宗教, 科学]
 description: "The one and only value of any normative axiom for a community, from religions to ideology, would be its unprovability, the source of meaning and existential comfort."
 cover: /img/bg/art/cover/B3.avif

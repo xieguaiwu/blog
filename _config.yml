@@ -70,11 +70,20 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map:
-  技术: tech
-  数学: math
-  人文: humanities
-  艺术: art
-  随笔: essay
+  "Philosophy of Mind": phil-mind
+  "Political Philosophy": phil-pol
+  "Philosophy of Science": phil-sci
+  "Ethics": ethics
+  "Aesthetics": aesthetics
+  "Literary Theory": lit-theory
+  "Political Economy": pol-econ
+  "Quantitative Finance": quant-fin
+  "Intellectual History": intel-hist
+  "Philosophy of Religion": phil-rel
+  "Logic": logic
+  "Social Theory": soc-theory
+  "Quantitative Linguistics": quant-ling
+  "Film and Media Studies": film-media
 tag_map:
   诗: poetry
   散文: prose

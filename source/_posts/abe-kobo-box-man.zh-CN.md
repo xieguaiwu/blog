@@ -1,7 +1,7 @@
 ---
 title: "安部公房《箱男》：颠覆现实的虚构迷宫"
 date: 2024-05-24 17:09:03
-categories: [人文]
+categories: [Literary Theory]
 tags: [文学, 安部公房, 分析]
 description: ""镜子和男女交媾是可憎的，因为它们使人的数目倍增。""
 cover: /img/bg/art/cover/A3.avif

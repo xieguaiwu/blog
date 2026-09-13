@@ -1,7 +1,7 @@
 ---
 title: "《雷蒙·鲁塞尔》书评"
 date: 2024-06-15 00:00:00
-categories: [人文]
+categories: [Literary Theory]
 tags: [书评, 阅读]
 description: "注：本文是我为方便其他读者理解福柯的《雷蒙·鲁塞尔》一书而对其内在脉络的梳理（除了第一章）与外在的写作背景的补充，以及我作为一个不会法语的英汉双语读者（相信大部分读者都和我一样）对此译本的一些修改建议。"
 cover: /img/bg/art/cover/B2.avif

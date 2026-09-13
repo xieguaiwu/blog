@@ -1,7 +1,7 @@
 ---
 title: "中国经济困局：何以至此"
 date: 2026-07-01 00:00:00
-categories: [随笔]
+categories: [Political Economy]
 tags: [经济, 中国]
 description: "中国经济困局分析"
 cover: /img/bg/art/cover/A4.avif
