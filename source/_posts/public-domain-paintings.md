@@ -1,62 +1,62 @@
 ---
-title: 十六套背景的来路：一份公有领域绘画清单
+title: The Provenance of Sixteen Backgrounds: A Public Domain Painting Inventory
 date: 2026-09-13 02:30:00
 categories:
   - Aesthetics
 tags:
   - painting
-description: 站点背景用到的 16 套拼贴分别出自哪些画作，以及为什么挑了这一组。
+description: Which paintings the 16 collage backgrounds are composed from, and why this particular set was chosen.
 cover: /img/bg/art/cover/C1.avif
 cover_type: img
+lang: en
+lang_alt: zh-CN
+slug: public-domain-paintings
 ---
 
 > 📝 **Article Type**: Reference
 
-站点背景的每一套拼贴都由公有领域画作合成。下面是完整的取材清单。
+Each of the 16 site backgrounds is a composite of public domain paintings. Below is the complete inventory.
 
-## A 单幅满铺
+## A — Full Bleed
 
-| 套号 | 作品 | 作者 |
+| Set | Work | Artist |
 | :--- | :--- | :--- |
-| A1 | 死之岛 | Arnold Böcklin |
-| A2 | 死之岛 I（巴塞尔版） | Arnold Böcklin |
-| A3 | 农神吞噬其子 | Francisco de Goya |
-| A4 | 萨丹纳帕路斯之死 | Eugène Delacroix |
+| A1 | The Isle of the Dead | Arnold Böcklin |
+| A2 | The Isle of the Dead I (Basel version) | Arnold Böcklin |
+| A3 | Saturn Devouring His Son | Francisco de Goya |
+| A4 | The Death of Sardanapalus | Eugène Delacroix |
 
-## B 主画 + 细节拼贴
+## B — Main + Details
 
-| 套号 | 主画 | 细节 |
+| Set | Main Painting | Detail Insets |
 | :--- | :--- | :--- |
-| B1 | 死之岛 | 路西法（Stuck）、受伤的天使（Simberg）、农神（Goya）、风信子（古罗马圆形浮雕） |
-| B2 | 女巫的安息日（Goya） | 地狱圆盘（Bosch）、骷髅争尸（Ensor）、显现（Moreau） |
-| B3 | 死之花园（Simberg） | 人间乐园外板（Bosch）、莎乐美（Stuck）、哀悼的老人（Van Gogh） |
-| B4 | 显现（Moreau） | 受难（Kokoschka）、回声与那喀索斯（Waterhouse）、晚钟（Simberg） |
+| B1 | The Isle of the Dead | Lucifer (Stuck), Wounded Angel (Simberg), Saturn (Goya), Hyacinth (Ancient Roman roundel) |
+| B2 | Witches' Sabbath (Goya) | The Hellish Circle (Bosch), Skeletons Fighting Over a Corpse (Ensor), The Apparition (Moreau) |
+| B3 | The Garden of Death (Simberg) | Shutters of The Garden of Earthly Delights (Bosch), Salome (Stuck), Old Man in Sorrow (Van Gogh) |
+| B4 | The Apparition (Moreau) | Passion (Kokoschka), Echo and Narcissus (Waterhouse), The Evening Bells (Simberg) |
 
-## C 三联祭坛画
+## C — Triptych
 
-| 套号 | 三联 |
+| Set | Triptych |
 | :--- | :--- |
-| C1 | 晚钟 ｜ 路西法 ｜ 农神吞噬其子 |
-| C2 | 显现 ｜ 莎乐美 ｜ 堕落天使（Cabanel） |
-| C3 | 疯人院（Goya） ｜ 哀悼的老人（Van Gogh） ｜ 父亲（Kokoschka） |
-| C4 | 地狱圆盘 ｜ 人间乐园（Bosch） ｜ 人间乐园外板（Bosch） |
+| C1 | The Evening Bells ｜ Lucifer ｜ Saturn Devouring His Son |
+| C2 | The Apparition ｜ Salome ｜ The Fallen Angel (Cabanel) |
+| C3 | The Madhouse (Goya) ｜ Old Man in Sorrow (Van Gogh) ｜ Father (Kokoschka) |
+| C4 | The Hellish Circle ｜ The Garden of Earthly Delights (Bosch) ｜ Shutters of The Garden of Earthly Delights (Bosch) |
 
-## D 层叠蒙太奇
+## D — Layered Montage
 
-| 套号 | 底画 | 叠印 |
+| Set | Base | Overprints |
 | :--- | :--- | :--- |
-| D1 | 死之岛 | 农神、受伤的天使、疗养院空厅 |
-| D2 | 死之岛 I | 晚钟、庞贝那喀索斯、金刚界曼陀罗 |
-| D3 | 疗养院空厅 | 农神、骷髅争尸、地狱圆盘 |
-| D4 | 疯人院（Goya） | 阴谋（Ensor）、女巫的安息日（Goya） |
+| D1 | The Isle of the Dead | Saturn, Wounded Angel, Empty Hall of the Sanatorium |
+| D2 | The Isle of the Dead I | The Evening Bells, Narcissus of Pompeii, Vajradhātu Mandala |
+| D3 | Empty Hall of the Sanatorium | Saturn, Skeletons Fighting Over a Corpse, The Hellish Circle |
+| D4 | The Madhouse (Goya) | The Conspiracy (Ensor), Witches' Sabbath (Goya) |
 
-## 为什么是这一组
+## Why This Set
 
-挑图的标准只有一条：**暗、静、有重量**。
+The sole criterion: **dark, still, heavy**.
 
-死之岛是最早定下来的——一块悬在海上的墓园，船正靠岸，白影立在船上。
-以它为锚，其余的图就按「同一种沉默的调子」去配：
-Goya 的疯狂、Stuck 的堕落、Simberg 的温柔死亡、Moreau 的显现、Bosch 的地狱。
+The Isle of the Dead was the first chosen — a cemetery suspended above the sea, a boat approaching, a white figure standing on board. With that as the anchor, the rest were selected to match "the same quiet tone": Goya's madness, Stuck's fallen angels, Simberg's gentle death, Moreau's apparitions, Bosch's hell.
 
-技术上，所有画作都做了统一处理：降饱和、压暗、加暗角与颗粒，
-再用渐变遮罩压住上下两端，保证任何一张做背景时文字都能读清。
+Technically, all paintings underwent uniform treatment: desaturation, darkening, vignette and film grain, with gradient masks at top and bottom to ensure legibility of text over any background.

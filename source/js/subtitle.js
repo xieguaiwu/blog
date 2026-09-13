@@ -7,12 +7,12 @@
 (function () {
   const subtitleList = [
     {
-      content: '每一幅画里，都有一场无人送行的葬礼。',
-      source: null,
+      content: 'Every portrait that is painted with feeling is a portrait of the artist, not of the sitter.',
+      source: 'Oscar Wilde',
     },
     {
-      content: '目标和希望会枯萎，但人们自己不会。',
-      source: null,
+      content: 'The world breaks everyone and afterward many are strong at the broken places.',
+      source: 'Ernest Hemingway, *A Farewell to Arms*',
     },
     {
       content: 'The deepest and most organic death is death in solitude, when even light becomes a principle of death.',
@@ -35,16 +35,16 @@
       source: 'Li Hao, *Walking in the Southern Mountain Fields* (trans. xieguiawu)',
     },
     {
-      content: '所谓经典，就是每次重看都换了一副面孔的画。',
-      source: null,
+      content: 'A classic is a book that has never finished saying what it has to say.',
+      source: 'Italo Calvino, *Why Read the Classics?*',
     },
     {
-      content: '黑暗也是一种颜色，最古老的那一种。',
-      source: null,
+      content: 'Color is the place where our brain and the universe meet.',
+      source: 'Paul Cézanne',
     },
     {
-      content: '艺术所做的，不过是让时间在画布上停住一会儿。',
-      source: null,
+      content: 'The aim of every artist is to arrest motion, which is life, by artificial means and hold it fixed.',
+      source: 'William Faulkner',
     },
   ];
 

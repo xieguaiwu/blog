@@ -1,6 +1,7 @@
 ---
 title: 关于
 lang: zh-CN
+lang_alt: en
 ---
 
 # 关于本站
@@ -26,12 +27,12 @@ Van Gogh、Kokoschka、Bosch、Tanner、Waterhouse、Roberts。
 
 窄屏（≤ 768px）会自动改用竖版变体，避免宽幅拼贴被裁掉主体。
 
+> 📖 Also available in [English](/about/).
+
 ## 关于我
 
 - GitHub：[xieguaiwu](https://github.com/xieguaiwu)
 - 邮箱：xieguiawu@163.com
-
-> 📖 Also available in [English](/about/).
 
 ## 许可
 
