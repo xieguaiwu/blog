@@ -32,7 +32,7 @@
   // 在页脚插入需要的元素
   document.getElementsByClassName('footer-other')[0].innerHTML +=
     '<div>本站已运行 <span id="website-runtime"></span></div>' +
-    '<i>每一个不曾起舞的日子，都是对生命的辜负。</i>';
+    '<i>目标和希望会枯萎，但人们自己不会。</i>';
 
   // 每秒刷新
   setInterval(() => {
