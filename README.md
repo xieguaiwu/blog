@@ -4,6 +4,8 @@
 [zhdbk3/zhdbk3.github.io](https://github.com/zhdbk3/zhdbk3.github.io)（MIT），
 配色与背景按自己的口味重做。
 
+灵感来源：[zhdbk3.github.io](https://zhdbk3.github.io/) — 着火的冰块nya 的小家
+
 ## 特色
 
 - **艺术混搭背景**：16 套由公有领域画作合成的拼贴，每次加载随机切换一张；窄屏自动改用竖版变体。

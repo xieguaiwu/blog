@@ -1,3 +1,15 @@
+---
+title: "The Constitutional Crisis of Democracy: From Bureaucratic Efficiency to the Rule of Technology"
+date: 2026-06-01 00:00:00
+categories: [人文]
+tags: [论文, 政治哲学, Locke]
+description: "Locke Politics Paper"
+cover: /img/bg/art/cover/C1.avif
+cover_type: img
+---
+
+*Is Democracy in Crisis?*
+
 Disoriented in the thicket, shrouded in the fog of propaganda, people
 are facing an age in which truth is vague, reduced to dogmas held by
 particular groups. In the golden age of democracy, a climate of opinion,

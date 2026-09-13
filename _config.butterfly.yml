@@ -6,6 +6,16 @@
 # --------------------------------------
 
 # --------------------------------------
+# Multi-language Settings
+# --------------------------------------
+language:
+  enable: true
+  default: en
+  languages:
+    - en
+    - zh-CN
+
+# --------------------------------------
 # Navigation Settings
 # --------------------------------------
 
@@ -17,12 +27,12 @@ nav:
   fixed: false
 
 menu:
-  首页: / || fas fa-home
-  归档: /archives/ || fas fa-archive
-  标签: /tags/ || fas fa-tags
-  分类: /categories/ || fas fa-folder-open
-  友链: /link/ || fas fa-link
-  关于: /about/ || fas fa-heart
+  Home: / || fas fa-home
+  Archives: /archives/ || fas fa-archive
+  Tags: /tags/ || fas fa-tags
+  Categories: /categories/ || fas fa-folder-open
+  Links: /link/ || fas fa-link
+  About: /about/ || fas fa-heart
 
 # --------------------------------------
 # Code Blocks Settings
@@ -49,6 +59,7 @@ code_blocks:
 social:
   fab fa-github: https://github.com/xieguaiwu || GitHub
   fa-solid fa-feed: /atom.xml || Atom || '#B08D57'
+  fa-solid fa-globe: https://isaa-web.org/profile/11fd313b-be1e-4078-beef-f24dc9ce802c || ISAA || '#B08D57'
 
 # --------------------------------------
 # Image Settings

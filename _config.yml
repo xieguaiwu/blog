@@ -4,11 +4,14 @@
 
 # Site
 title: xieguaiwu's Blog
-subtitle:
-description: 'A personal blog by xieguaiwu.'
+subtitle: "最深邃和最根本的死亡，就是在孤独中死去，届时就连光亮都会变成死亡的成分。——齐奥朗《在绝望之巅》"
+description: 'Personal blog by xieguaiwu — literature, philosophy, art, and quantitative research.'
 keywords:
 author: xieguaiwu
-language: zh-CN
+language: en
+languages:
+  - en
+  - zh-CN
 timezone: 'Asia/Shanghai'
 
 # URL
