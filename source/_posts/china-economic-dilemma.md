@@ -11,6 +11,10 @@ lang_alt: zh-CN
 slug: china-economic-dilemma
 ---
 
+> 🤖 **AI Translation Notice**: This article was originally written in Chinese and translated to English by AI. The original Chinese version is available [here](/zh-CN/2026/07/01/china-economic-dilemma/). Some nuances may differ from human translation.
+
+> 📝 **Article Type**: Political Economy Essay
+
 > Given the limits of my personal energy and available resources, this paper relies on qualitative argumentation and cannot provide sufficient quantitative evidence. To compensate for possible problems of rigour, **formalized definitions, underpinned by structuralist thought, are my solution** — they help the reader understand my argumentation process to the point where they can diagnose its possible defects.
 
 > Since there exists, in fact, no public space capable of discussing this question with adequate academic rigour and neutrality (its growing political radicalization renders it both laughable and lamentable), I must declare that the core thesis of this paper is solely my own view, though it finds mutual support in domestic and foreign literature — it represents only one perspective. I am not pleased to find myself in this situation, but there is nothing I can do about it.

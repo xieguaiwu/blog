@@ -10,6 +10,8 @@ cover: /img/bg/art/cover/C1.avif
 cover_type: img
 ---
 
+> 📝 **Article Type**: Reference
+
 站点背景的每一套拼贴都由公有领域画作合成。下面是完整的取材清单。
 
 ## A 单幅满铺

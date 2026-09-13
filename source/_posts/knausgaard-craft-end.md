@@ -11,6 +11,10 @@ lang_alt: zh-CN
 slug: knausgaard-craft-end
 ---
 
+> 🤖 **AI Translation Notice**: This article was originally written in Chinese and translated to English by AI. The original Chinese version is available [here](/zh-CN/2024/03/26/knausgaard-craft-end/). Some nuances may differ from human translation.
+
+> 📝 **Article Type**: Literary Analysis
+
 ## An Overview of Yukio Mishima's Thought:
 
 Position: Contrary to what many voices insufficiently acquainted with modern Japanese history maintain, Yukio Mishima was in no sense a fascist or a militarist, nor even, on a political level, can he simply be regarded as a member of the Japanese right wing. He held a negative view of the role played by the Emperor — representing the old order — in the preceding decades, contending that the imperial house, having regained power, should have continued to exist as a spiritual symbol approaching the divine, rather than becoming a manipulator of sordid political struggles, while at the same time actively guiding the national spirit. In sum, Mishima was a political and cultural conservative, and an aesthetic classicist.

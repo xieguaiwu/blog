@@ -11,6 +11,10 @@ lang_alt: zh-CN
 slug: in-the-gaps-of-drifting
 ---
 
+> 🤖 **AI Translation Notice**: This article was originally written in Chinese and translated to English by AI. The original Chinese version is available [here](/zh-CN/2024/12/01/in-the-gaps-of-drifting/). Some nuances may differ from human translation.
+
+> 📝 **Article Type**: Personal Essay
+
 You come to realize, with increasing clarity, that this melancholy is not a foreign body that can be eradicated. It is not a disease in any substantive sense, though it does involve organic changes... Between spells of delirium and icy fervor, you understand that it has always here. You once lived without it; now it will be with you forever. And so you can only endure in silence the absurd effects it produces — from the estranged gaze of self-examination (indeed, most social anxiety derives from precisely this self-examination) to the stupid lies of pseudoscience — you are compelled to treat it as a metaphysical alien presence, unable to fully acknowledge that it is part of yourself... No matter how many times the chain of reasoning brings you to this conclusion, you still hold it at arm's length in the drift of daily life, because there is no alternative: you have to get better. You must get better.
 
 A

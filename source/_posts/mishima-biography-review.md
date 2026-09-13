@@ -11,6 +11,10 @@ lang_alt: zh-CN
 slug: mishima-biography-review
 ---
 
+> 🤖 **AI Translation Notice**: This article was originally written in Chinese and translated to English by AI. The original Chinese version is available [here](/zh-CN/2025/01/15/mishima-biography-review/). Some nuances may differ from human translation.
+
+> 📝 **Article Type**: Book Review
+
 *The Biography of Yukio Mishima*: For the voyeur, make yourself at home; for the researcher, proceed with caution.
 
 "...my thesis, it would appear, still stands."

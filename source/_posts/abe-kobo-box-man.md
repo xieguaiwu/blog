@@ -11,6 +11,10 @@ lang_alt: zh-CN
 slug: abe-kobo-box-man
 ---
 
+> 🤖 **AI Translation Notice**: This article was originally written in Chinese and translated to English by AI. The original Chinese version is available [here](/zh-CN/2024/05/24/abe-kobo-box-man/). Some nuances may differ from human translation.
+
+> 📝 **Article Type**: Literary Analysis
+
 *For Bartleby Kapp — Light of my life, fire of my loins*
 
 ## Introduction

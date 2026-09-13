@@ -8,6 +8,10 @@ cover: /img/bg/art/cover/D3.avif
 cover_type: img
 ---
 
+> 📝 **Article Type**: Research Paper
+
+> 📖 **Also published on**: [arXiv](https://arxiv.org/abs/2602.08437)
+
 **作者**：Ziyan Wang, Longlong Ma
 
 **arXiv**：[2602.08437](https://arxiv.org/abs/2602.08437) \[cs.CL\]

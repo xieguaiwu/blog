@@ -8,6 +8,10 @@ cover: /img/bg/art/cover/C1.avif
 cover_type: img
 ---
 
+> 📝 **Article Type**: Research Paper
+
+> 📖 **Also published on**: [Oxford JSS](https://www.oxfordjss.org/february-2026-vol-4-issue-1-1/the-entanglement-of-norm%3A-a-structural-study-during-the-congress-of-vienna-and-the-revolutions-of-1848)
+
 **作者**：Ziyan Wang
 
 **发表**：The Oxford Journal of Student Scholarship（ISSN 3070-3875）· February 2026 · Vol. 4, Issue 1

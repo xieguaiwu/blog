@@ -8,6 +8,8 @@ cover: /img/bg/art/cover/D2.avif
 cover_type: img
 ---
 
+> 📝 **Article Type**: Research Paper
+
 *Cross-Architecture Statistical Comparison of Machine Translation Output: SMT versus Six Large Language Models* — Ziyan Wang, Yufan Duan, Youxi He (New Talent Academy, Beijing)
 
 

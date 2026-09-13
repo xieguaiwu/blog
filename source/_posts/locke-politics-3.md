@@ -8,6 +8,8 @@ cover: /img/bg/art/cover/C1.avif
 cover_type: img
 ---
 
+> 📝 **Article Type**: Research Paper
+
 *Is Democracy in Crisis?*
 
 Disoriented in the thicket, shrouded in the fog of propaganda, people

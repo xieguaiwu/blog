@@ -8,6 +8,8 @@ cover: /img/bg/art/cover/B3.avif
 cover_type: img
 ---
 
+> 📝 **Article Type**: Research Paper
+
 *Ziyan Wang*
 
 The one and only value of any normative axiom for a community, from religions to ideology, would be its unprovability, the source of meaning and existential comfort. This is the moral from the calamities in the twentieth century. From Jim Jones’ ridiculous leftism to Charles Manson’s “Helter Skelter,” we have witnessed the desperate need for spiritual guidance in order to overcome loneliness and anxiety, which only fortifies religious and theistic beliefs in a post-industrial world. Among those who feel detached as highways are built in a blink of eyes, science poses no threat to the realm of divine, and even false prophets sounded “truer” than empirical verification.

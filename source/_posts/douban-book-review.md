@@ -11,6 +11,12 @@ lang_alt: zh-CN
 slug: douban-book-review
 ---
 
+> 🤖 **AI Translation Notice**: This article was originally written in Chinese and translated to English by AI. The original Chinese version is available [here](/zh-CN/2024/06/15/douban-book-review/). Some nuances may differ from human translation.
+
+> 📝 **Article Type**: Book Review
+
+> 📖 **Also published on**: [豆瓣读书](https://book.douban.com/review/16006142/)
+
 Note: This article is intended to help other readers understand Michel Foucault's *Death and the Labyrinth: The World of Raymond Roussel* by mapping the book's internal logic (with the exception of Chapter One) and supplementing its external background of composition, as well as offering — as a bilingual reader in Chinese and English who does not know French (and I suspect most readers are in the same position) — several suggestions for improving the Chinese translation.
 
 Foucault's analysis of Roussel begins with a chance encounter in the José Corti bookshop. The writing technique in *La Vue* (*The View*), which was later imitated by Alain Robbe-Grillet, became the starting point of Foucault's personal interest in Roussel, while *How I Wrote Certain of My Books* and its emphasis on deliberate artifice served as the fuse that ignited the philosophical lens's war against Roussel. **"The visible and the invisible," like the loose thread of a sweater, became a major handle by which to cross Roussel's threshold. Alongside it came the displacement of "difference and identity," plus a saturated language-thing space** (or "the space of non-existence beneath the surface of things," or lens-like vastness — Foucault frequently repeats the same meaning in varied forms throughout this book) as the field of its activity — **Foucault uses these two phenomena to locate, within Roussel's own work, the interstices by which it is structured** (just as Roussel, with his playful "process," located necessary death within the contingency of language — the death of language itself and of everything it carried within classical literature), thus commencing the writing of this book.
