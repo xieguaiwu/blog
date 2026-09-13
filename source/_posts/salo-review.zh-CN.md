@@ -2,7 +2,7 @@
 title: 影评·索多玛的一百二十天
 date: 2024-03-08 19:17:06
 categories: [Film and Media Studies]
-tags: [影评, 电影]
+tags: [film-review, cinema, pasolini]
 description: 结论：大师一生中排名前三的作品，精致而客观的自然主义视听语言是对萨德作品的成功驾驭，而从其中体现……
 cover: /img/bg/art/cover/B1.avif
 cover_type: img

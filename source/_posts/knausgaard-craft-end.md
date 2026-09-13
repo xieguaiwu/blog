@@ -2,7 +2,7 @@
 title: "Krasznahorkai's The End of Craft — Anti-Mishima Aesthetics"
 date: 2024-03-26 22:52:33
 categories: [Literary Theory]
-tags: [literary analysis, Krasznahorkai, Mishima]
+tags: [literary-analysis, krasznahorkai, mishima]
 description: "Analyzing Krasznahorkai's deconstruction of Yukio Mishima's aesthetic system — how Krasznahorkai dismantles Mishima's classicalist tripartite unity and replaces it with narrative entropy across three anti-Mishima dimensions: narrative, narratological, and metaphysical."
 cover: /img/bg/art/cover/D1.avif
 cover_type: img

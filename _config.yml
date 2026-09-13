@@ -85,12 +85,35 @@ category_map:
   "Quantitative Linguistics": quant-ling
   "Film and Media Studies": film-media
 tag_map:
-  诗: poetry
-  散文: prose
-  绘画: painting
-  音乐: music
-  笔记: notes
-  教程: tutorial
+  prose: prose
+  poetry: poetry
+  painting: painting
+  music: music
+  notes: notes
+  tutorial: tutorial
+  essay: essay
+  film-review: film-review
+  literary-analysis: literary-analysis
+  book-review: book-review
+  research-paper: research-paper
+  philosophy: philosophy
+  literature: literature
+  economics: economics
+  china: china
+  religion: religion
+  science: science
+  political-philosophy: political-philosophy
+  aesthetics: aesthetics
+  quantitative-finance: quantitative-finance
+  mishima: mishima
+  krasznahorkai: krasznahorkai
+  abe-kobo: abe-kobo
+  foucault: foucault
+  locke: locke
+  cioran: cioran
+  kafka: kafka
+  rilke: rilke
+  carver: carver
 
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta

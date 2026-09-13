@@ -2,7 +2,7 @@
 title: "Teddy Paper"
 date: 2026-06-25 00:00:00
 categories: [Philosophy of Science]
-tags: [论文]
+tags: [research-paper, machine-learning, machine-translation]
 description: "Teddy Paper"
 cover: /img/bg/art/cover/D2.avif
 cover_type: img

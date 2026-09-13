@@ -2,7 +2,7 @@
 title: "Review: The Biography of Yukio Mishima"
 date: 2025-01-15 01:21:21
 categories: [Literary Theory]
-tags: [book review, Mishima, biography]
+tags: [book-review, mishima, biography]
 description: "A critical review arguing that dominant biographical treatments of Yukio Mishima systematically dehumanize him by reducing his complex personhood to a mere symptom of his era's pathologies — and that a responsible biography must find balance between psychological explanation and the irreducible individuality of its subject."
 cover: /img/bg/art/cover/C2.avif
 cover_type: img

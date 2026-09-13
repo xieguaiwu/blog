@@ -2,7 +2,7 @@
 title: "Book Review: Foucault's Death and the Labyrinth"
 date: 2024-06-15 00:00:00
 categories: [Philosophy of Language]
-tags: [book review, Foucault, Roussel]
+tags: [book-review, foucault, roussel]
 description: "A detailed reader's guide to Michel Foucault's Death and the Labyrinth: The World of Raymond Roussel — tracing the book's internal logic across its eight chapters, explaining Foucault's key concepts, and offering specific suggestions for improving the Chinese translation by comparing it against the English edition."
 cover: /img/bg/art/cover/B2.avif
 cover_type: img

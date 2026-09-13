@@ -2,7 +2,7 @@
 title: "China's Economic Dilemma: How Did We Get Here"
 date: 2026-07-01 00:00:00
 categories: [Political Economy]
-tags: [economics, China, structural analysis]
+tags: [economics, china, structural-analysis]
 description: "A structural analysis of China's economic challenges, arguing that the root cause lies in the political system's distortion of credit allocation, consumption, and market-clearing mechanisms — using a formalized five-layer macro framework plus a state layer to document how politically directed credit, suppressed labor income, the rise and fall of shadow banking, and the absence of bankruptcy mechanisms form a self-reinforcing loop of debt accumulation and misallocation."
 cover: /img/bg/art/cover/A4.avif
 cover_type: img

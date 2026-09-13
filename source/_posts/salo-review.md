@@ -2,7 +2,7 @@
 title: "Salo: 120 Days of Sodom — Film Review"
 date: 2024-03-08 19:17:06
 categories: [Film and Media Studies]
-tags: [film review, cinema, Pasolini]
+tags: [film-review, cinema, pasolini]
 description: "A review of Pasolini's masterful adaptation of de Sade — examining its austere naturalistic cinematography, spatial symbolism, sound design, and the cultural critique embedded in its fusion of Sade, Nietzsche, and Italian fascism."
 cover: /img/bg/art/cover/B1.avif
 cover_type: img
