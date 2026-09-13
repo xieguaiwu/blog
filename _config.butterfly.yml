@@ -554,7 +554,7 @@ comments:
   # Format of two comments system : Disqus,Waline
   # 留空 = 关闭评论。要启用 Giscus，先给自己的仓库开 Discussions 并装 giscus App，
   # 再从 https://giscus.app/ 取 repo / repo_id / category_id 填到下面的 giscus 段。
-  use:
+  use: Giscus
   # Display the comment name next to the button
   text: true
   # Lazyload: The comment system will be load when comment element enters the browser's viewport.
@@ -652,8 +652,8 @@ twikoo:
 # https://giscus.app/
 giscus:
   repo: xieguaiwu/blog
-  repo_id:
-  category_id:
+  repo_id: R_kgDOUYPQRA
+  category_id: DIC_kwDOUYPQRM4DFe7s
   light_theme: light
   dark_theme: dark
   js: https://giscus.app/client.js

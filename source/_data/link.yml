@@ -13,4 +13,28 @@
 
 - class_name: 友情链接
   class_desc: 想交换友链的话，欢迎联系我。
-  link_list: []
+  link_list:
+    - name: xieguaiwu (GitHub)
+      link: https://github.com/xieguaiwu/
+      avatar: https://avatars.githubusercontent.com/u/00000000?v=4
+      descr: GitHub 主页
+    - name: Bilibili
+      link: https://space.bilibili.com/1506728190
+      avatar:
+      descr: B站主页
+    - name: 抖音
+      link: https://www.douyin.com/user/MS4wLjABAAAA?modal_id=dy1gxakdq8rzi
+      avatar:
+      descr: 抖音号 dy1gxakdq8rzi
+    - name: 豆瓣
+      link: https://www.douban.com/people/275644518/
+      avatar:
+      descr: 豆瓣主页
+    - name: Oxford JSS 论文
+      link: https://www.oxfordjss.org/february-2026-vol-4-issue-1-1/the-entanglement-of-norm%3A-a-structural-study-during-the-congress-of-vienna-and-the-revolutions-of-1848
+      avatar:
+      descr: The Entanglement of Norm — Oxford JSS
+    - name: arXiv 论文
+      link: https://arxiv.org/abs/2602.08437
+      avatar:
+      descr: arXiv 2602.08437

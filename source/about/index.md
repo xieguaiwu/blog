@@ -30,7 +30,7 @@ Van Gogh、Kokoschka、Bosch、Tanner、Waterhouse、Roberts。
 <!-- 这一节请自己填。写清楚你是谁、在做什么、怎么联系你就够了。 -->
 
 - GitHub：[xieguaiwu](https://github.com/xieguaiwu)
-- 邮箱：<待填>
+- 邮箱：xieguaiwu@163.com
 
 ## 许可
 
