@@ -32,7 +32,6 @@ Van Gogh、Kokoschka、Bosch、Tanner、Waterhouse、Roberts。
 ## 关于我
 
 - GitHub：[xieguaiwu](https://github.com/xieguaiwu)
-- GitHub 主页：[xieguaiwu](https://github.com/xieguaiwu/xieguiawu)
 - 邮箱：xieguiawu@163.com
 
 ## 许可
