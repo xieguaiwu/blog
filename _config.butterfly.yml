@@ -670,7 +670,7 @@ giscus:
   js: https://giscus.app/client.js
   option:
     data-input-position: top
-    data-lang: zh-CN
+    data-lang: en
 
 # Remark42
 # https://remark42.com/docs/configuration/frontend/
