@@ -6,6 +6,31 @@ tags: [research-paper, machine-learning, machine-translation]
 description: "Teddy Paper"
 cover: /img/bg/art/cover/D2.avif
 cover_type: img
+abstract_graph:
+  layout: radial
+  center: "SMT and LLM translations differ systematically"
+  nodes:
+    - id: design
+      label: "Multi-genre source texts"
+      sub: "EN→ZH and ZH→EN"
+      edge: "design"
+    - id: systems
+      label: "SMT + six LLMs"
+      edge: "compared systems"
+    - id: features
+      label: "Feature extraction"
+      sub: "STTR, length, sentiment, stylometry"
+      edge: "features"
+    - id: methods
+      label: "Mixed-effects models + SVM (98%)"
+      edge: "methods"
+    - id: sttr
+      label: "STTR is the robust signature"
+      sub: "d = +2.83, β = +0.27"
+      edge: "finding"
+    - id: fragility
+      label: "Effects vanish under source control"
+      edge: "caveat"
 ---
 
 > 📝 **Article Type**: Research Paper

@@ -11,6 +11,12 @@
 
 **Spec:** 需求原文：「给每一个文章增加简明+图示化的 abstract graph，要做语言适配」。调查证据与设计论证见本会话（2026-09-23）及 `CONTEXT_FOR_NEXT_AGENT.md`。
 
+## 执行状态（2026-09-23）
+
+- ✅ **Phase 0 完成**（commit `0344133`）：语言前缀 permalink、两处 YAML 修复、content-root 链接补齐、about 页迁移、按页 html lang、语言互链。验证：21 页（13 en + 8 zh）、构建 0 ERROR、全站内链 0 缺失。
+- ✅ **Phase 1 完成**（本次提交）：渲染器 + 样式 + 试点数据（abe 中英 / teddy）+ 22 例单测 + CI test 步骤；momus 审查后修复（自链接/保留 id/转义/配置驱动 permalink 等）。截图见 `~/Desktop/blog-work/shots/ag/`（12 张：1440/768/390 × 明/暗 × 中英）。
+- ⏳ **Phase 2/3 待用户评审试点后进行**：其余 19 个文件的图数据、全站验证、部署核查。
+
 ## Global Constraints
 
 - 站点部署于子路径：`url = https://xieguaiwu.github.io/blog`，`root = /blog/`。任何正文/注入 HTML 中的站内链接必须 root 安全。
@@ -509,13 +515,13 @@ Expected: FAIL（`Cannot find module '../scripts/abstract-graph.js'`）
 
 1. 常量：`CAPTIONS = { en: 'Graphical Abstract', 'zh-CN': '图示摘要' }`；`LAYOUTS = ['radial']`。
 2. `validateSpec`：节点 3–7 个；`id` 非空且唯一；`label` 必填，长度上限 en 48 / 其他 20（码点），超限进 warnings；`links` 引用的 id 必须存在（否则 errors）；`layout` 非 `radial` 进 warnings。
-3. `layoutRadial`：中心 `(50, 50)`；卫星 i 的角度 `θ = -90° + i*360/n`，`x = 50 + 34*cos θ`，`y = 50 + 34*sin θ`；每条中心→卫星的边，标签取 `node.edge`；`links` 额外连线；边标签坐标取两端点中点（中心边取 t=0.62）。
+3. `layoutRadial`：坐标空间 160 × 100（与 CSS `aspect-ratio: 16/10` 等比，避免 `preserveAspectRatio="none"` 导致箭头/描边拉伸）。中心 `(80, 50)`；卫星 i 的角度 `θ = -90° + i*360/n`，`x = 80 + 62*cos θ`，`y = 50 + 36*sin θ`；节点框按实测半宽估计（中心 20.8×7，卫星 16.8×6.5），连线两端用射线-盒交点裁到框外 +2 单位；关系标签放在连线中点、再沿垂直方向偏移 7 单位（实测调参：原 54 半径/无偏移会被节点框裁切）。`links` 额外连线，标签取弦中点。
 4. `renderFigure`：输出
    `<figure class="ag" data-layout="radial" lang="{escapeHtml(lang)}"><div class="ag-canvas">` +
-   `<svg class="ag-edges" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">`（含 `<defs><marker id="ag-arrow">`，路径 `vector-effect="non-scaling-stroke"`）+
+   `<svg class="ag-edges" viewBox="0 0 160 100" aria-hidden="true">`（含 `<defs><marker id="ag-arrow" markerWidth="2.4" markerHeight="2.4">`；箭头尺寸以 stroke-width 为单位，2.4 实测约 16px）+
    节点 `<div class="ag-node [ag-center]" style="--x:{x}%;--y:{y}%">`（`label` + 可选 `sub`）+
    边标签 `<span class="ag-edge-label" style="--x:..%;--y:..%">` +
-   `</div><figcaption>{caption}</figcaption></figure>`；全部文本经 `escapeHtml`。
+   `</div><figcaption>{caption}</figcaption></figure>`；全部文本经 `escapeHtml`（含 lang 属性值）。
 5. 过滤器（文件底部，Node 测试环境下跳过）：
 
 ```js
@@ -574,10 +580,10 @@ Expected: `pass 5` / `fail 0`
 - `.ag-edges`：绝对铺满；`.ag-edges path { stroke: rgba(176,141,87,.55); fill: none; }`（暗色下 `.75`）。
 - `.ag-node`：绝对定位 `left: var(--x); top: var(--y); transform: translate(-50%,-50%); width: 22%;`；背景用半透明墨色/宣纸色；`border: 1px solid rgba(176,141,87,.35)`；圆角 10px；内边距 .5rem .6rem；字号 `clamp(12px, 0.72rem + 0.2vw, 14px)`；行高 zh 1.55 / en 1.35（用 `.ag[lang^="zh"]` 区分）；`overflow-wrap: anywhere`。
 - `.ag-center`：宽 26%；金色描边（`#b08d57`）；字号略大。
-- `.ag-edge-label`：绝对定位到 `var(--x)/var(--y)`；`transform: translate(-50%,-50%)`；小号字 `.72rem`；背景色遮住穿过的连线。
+- `.ag-edge-label`：绝对定位到 `var(--x)/var(--y)`；`transform: translate(-50%,-50%)`；小号字 `.66rem`；`max-width: 12%` + 允许换行（长标签如 "compared systems" 会折行，避免被节点框裁切）；背景色遮住穿过的连线。
 - `.ag figcaption`：居中、`.78rem`、金色、`letter-spacing: .08em`。
 - `[data-theme='dark']` 变体：节点背景 `rgba(22,20,18,.88)`，文字 `#e8e0d2`。
-- `@media (max-width: 768px)`：`.ag-canvas { aspect-ratio: auto; }`；`.ag-edges { display: none; }`；`.ag-node, .ag-center { position: static; width: auto; transform: none; margin: .4rem 0; }`；`.ag-edge-label { display: inline-block; position: static; transform: none; margin: 0 .4rem; }`。
+- `@media (max-width: 768px)`：`.ag-canvas { aspect-ratio: auto; }`；`.ag-edges { display: none; }`；`.ag-node, .ag-center { position: static; width: auto; transform: none; margin: .4rem 0; }`；`.ag-edge-label { position: static; display: inline-block; max-width: none; }`（堆叠时标签成行内 chip，必须解除 12% 限宽，否则 CJK 标签会被拆行）；`.ag-link-label { display: none; }`。
 - `@media print { .ag { break-inside: avoid; } }`。
 
 - [ ] **Step 2: 构建并确认 CSS 进入产物**

@@ -9,6 +9,32 @@ cover_type: img
 lang: en
 lang_alt: zh-CN
 slug: abe-kobo-box-man
+abstract_graph:
+  layout: radial
+  center: "Fiction: a time-space parallel to reality that subverts it"
+  nodes:
+    - id: motif
+      label: "Metamorphosis motif"
+      sub: "traced from Crab Cactus (1949)"
+      edge: "genealogy"
+    - id: face
+      label: "The face"
+      sub: "boundary of consciousness and reality"
+      edge: "key concept"
+    - id: conversion
+      label: "Spirit conversion vs bodily transformation"
+      edge: "distinction"
+    - id: structure
+      label: "22 chapters + 2 clippings"
+      sub: "shifting narrators, pseudo-identity"
+      edge: "structure"
+    - id: forces
+      label: "Upward force / downward force"
+      edge: "dialectic"
+    - id: roles
+      label: "Atomic transformations"
+      sub: "relationships as the plot's foundation"
+      edge: "analysis"
 ---
 
 > 🤖 **AI Translation Notice**: This article was originally written in Chinese and translated to English by AI. The original Chinese version is available [here](/zh-CN/2024/05/24/abe-kobo-box-man/). Some nuances may differ from human translation.

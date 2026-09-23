@@ -8,6 +8,32 @@ cover: /img/bg/art/cover/A3.avif
 cover_type: img
 lang: zh-CN
 slug: abe-kobo-box-man
+abstract_graph:
+  layout: radial
+  center: "虚构：与现实并行并孕育颠覆力量的时空"
+  nodes:
+    - id: motif
+      label: "变形思想"
+      sub: "溯源《蟹甲木》(1949)"
+      edge: "溯源"
+    - id: face
+      label: "脸"
+      sub: "意识与现实的边界"
+      edge: "核心概念"
+    - id: conversion
+      label: "精神转换 ≠ 物理变形"
+      edge: "区分"
+    - id: structure
+      label: "22 章 + 2 篇报道"
+      sub: "叙述者与伪身份"
+      edge: "结构"
+    - id: forces
+      label: "向上的力量 / 向下的力量"
+      edge: "辩证法"
+    - id: roles
+      label: "原子转换"
+      sub: "关系类型构成情节基础"
+      edge: "分析"
 ---
 
 *献给巴特尔·卡普——Light of my life, fire of my loins*

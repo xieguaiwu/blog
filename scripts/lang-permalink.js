@@ -7,22 +7,36 @@
  *
  * 注意：旧脚本（fix-lang-slug.js）把后缀直接剥掉，导致 en/zh 写同一路径、
  * 构建间语言随机翻转。设计与验证见 docs/plans/2026-09-23-abstract-graph.md。
+ *
+ * 语言取自 config.languages；未登记的语言保持原样（宁可不加前缀，也不静默错配）。
  */
 'use strict';
 
-hexo.extend.filter.register('post_permalink', function (permalink) {
+/**
+ * 给非默认语言文章的 permalink 加语言前缀。
+ * @param {string} permalink 形如 "2024/05/24/post.zh-CN/"
+ * @param {string} defaultLang 默认语言（config.language）
+ * @param {string[]} langs 站点语言列表（config.languages）
+ */
+function prefixLang(permalink, defaultLang, langs) {
   if (typeof permalink !== 'string') return permalink;
+  const list = Array.isArray(langs) ? langs : [defaultLang];
 
-  const config = this.config;
-  const defaultLang = config.language;
-  const langs = Array.isArray(config.languages) ? config.languages : [defaultLang];
+  for (const lang of list) {
+    if (!lang || lang === defaultLang) continue;
+    const suffix = '.' + lang + '/';
+    if (permalink.endsWith(suffix)) {
+      return lang + '/' + permalink.slice(0, -suffix.length) + '/';
+    }
+  }
 
-  // 匹配末段路径的 ".{lang}/" 后缀（如 "2024/05/24/post.zh-CN/"）
-  const match = permalink.match(/\.([a-z]{2}(?:-[A-Z]{2})?)\/$/);
-  if (!match) return permalink;
+  return permalink;
+}
 
-  const lang = match[1];
-  if (lang === defaultLang || !langs.includes(lang)) return permalink;
+if (typeof hexo !== 'undefined' && hexo && hexo.extend) {
+  hexo.extend.filter.register('post_permalink', function (permalink) {
+    return prefixLang(permalink, this.config.language, this.config.languages);
+  });
+}
 
-  return lang + '/' + permalink.replace(/\.([a-z]{2}(?:-[A-Z]{2})?)\/$/, '/');
-});
+module.exports = { prefixLang };

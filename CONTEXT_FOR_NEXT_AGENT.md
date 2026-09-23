@@ -63,12 +63,18 @@ push 到 `main` 即自动构建部署（含 `TZ: Asia/Shanghai` 锁定，防本�
 ### 关于页
 - `source/about/index.md`（英文）+ `source/zh-CN/about/index.md`（中文，URL `/zh-CN/about/`），含 lang_alt 互链
 
+### 图示摘要（Abstract Graph，2026-09-23）
+- 每篇文章可在 front-matter 声明 `abstract_graph`（center + 3–7 个 nodes + 可选 links），构建期渲染为内联 HTML+SVG 的「图示摘要」卡片，零客户端 JS。
+- 脚本：`scripts/abstract-graph.js`（渲染器 + 校验）；样式：`source/css/custom.css` 末节；单测：`test/abstract-graph.test.js`。
+- 语言适配：数据随语言文件（en / zh-CN 各自一套）；图注字典与 CJK/Latin 排版分设；缺数据不渲染。
+- 试点：`abe-kobo-box-man`（中英）、`teddy-paper`（单语）。其余文章待批量补齐。
+
 ## 遗留问题 / 待办
 
 - [ ] **双语并列策略待定**（2026-09-23）：修复后首页/归档/RSS 同时列出中英两版；
       如需「仅默认语言 + 语言切换」可加生成器过滤（约 20 行）
-- [ ] **Abstract Graph 进行中**（2026-09-23）：计划见 `docs/plans/2026-09-23-abstract-graph.md`——
-      机制 + 试点（abe 中英 / teddy）后批量补齐其余文章
+- [ ] **Abstract Graph 试点待评审**（2026-09-23）：机制 + 试点（abe 中英 / teddy）已完成，截图 `~/Desktop/blog-work/shots/ag/`；
+      待用户评审后批量补齐其余 19 个文件，计划见 `docs/plans/2026-09-23-abstract-graph.md`
 
 - [ ] **博客侧反向启发未做**：可把 GitHub 主页的维特根斯坦语录（`A whole mythology is deposited in our language.`）
       加入引文轮播；About 页可加「Aesthetical Preference」（Fallen Angel / K.Sunnerberg / Monokai-Pro / Sway）
