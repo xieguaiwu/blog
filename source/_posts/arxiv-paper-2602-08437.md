@@ -6,6 +6,32 @@ tags: [research-paper, machine-learning, nlp]
 description: "In Chomsky's provocative critique \"The False Promise of CHATGPT,\" Large Language Models (LLMs) are characterized as mere pattern predictors that do not acquire languages via intrinsic causal and self-correction structures like humans, therefore are not able to distinguish impossible languages."
 cover: /img/bg/art/cover/D3.avif
 cover_type: img
+abstract_graph:
+  layout: radial
+  center: "Can LLMs distinguish impossible languages?"
+  nodes:
+    - id: critique
+      label: "Chomsky's critique"
+      sub: "'The False Promise of CHATGPT'"
+      edge: "under examination"
+    - id: stimuli
+      label: "Impossible languages"
+      sub: "reversed sentences, parity negation"
+      edge: "constructed"
+    - id: experiment
+      label: "GPT-2 small vs LSTM"
+      sub: "two rounds, n=1 per condition"
+      edge: "experiment"
+    - id: gpt2
+      label: "GPT-2: lower loss on natural language"
+      sub: "reversed worst (2.25x natural)"
+      edge: "descriptive result"
+    - id: lstm
+      label: "LSTM: minimal differences"
+      edge: "control result"
+    - id: paradigm
+      label: "Shift: rationalism to functionalism"
+      edge: "proposal"
 ---
 
 > 📝 **Article Type**: Research Paper

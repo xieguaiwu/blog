@@ -9,6 +9,32 @@ cover_type: img
 lang: en
 lang_alt: zh-CN
 slug: salo-review
+abstract_graph:
+  layout: radial
+  center: "Pasolini's hell: Sade, fascism and the system"
+  nodes:
+    - id: camera
+      label: "Static shots, symmetrical framing"
+      sub: "space as psychological mirror"
+      edge: "cinematography"
+    - id: mansion
+      label: "The mansion as system"
+      sub: "classicism + Futurist walls"
+      edge: "space"
+    - id: sound
+      label: "Fighter planes, sparse score"
+      sub: "the war kept outside"
+      edge: "sound design"
+    - id: sade
+      label: "Sade's numerical structure"
+      sub: "four masters, four circles"
+      edge: "source"
+    - id: nietzsche
+      label: "Nietzsche misused as fig leaf"
+      edge: "critique"
+    - id: ending
+      label: "The guards dance as masters fall"
+      edge: "ending"
 ---
 
 > 🤖 **AI Translation Notice**: This article was originally written in Chinese and translated to English by AI. The original Chinese version is available [here](/zh-CN/2024/03/08/salo-review/). Some nuances may differ from human translation.

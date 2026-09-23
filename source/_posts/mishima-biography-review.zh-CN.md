@@ -8,6 +8,33 @@ cover: /img/bg/art/cover/C2.avif
 cover_type: img
 lang: zh-CN
 slug: mishima-biography-review
+abstract_graph:
+  layout: radial
+  center: "传记把三岛化约为时代的病症"
+  nodes:
+    - id: impulse
+      label: "单一的性/审美冲动"
+      sub: "一条理论解释一生"
+      edge: "化约"
+    - id: symptom
+      label: "「时代的弊端代表」"
+      sub: "病态压过人格"
+      edge: "画像"
+    - id: sontag
+      label: "桑塔格的狂热阐释者"
+      sub: "解码毁掉密文"
+      edge: "对照"
+    - id: trial
+      label: "传记式审判"
+      sub: "证人盘问与叙述暴力"
+      edge: "方法"
+    - id: balance
+      label: "轮廓与形体的平衡"
+      edge: "诉求"
+    - id: gaps
+      label: "空缺即窗口"
+      sub: "由人物实存触及历史实存"
+      edge: "替代"
 ---
 
 《三岛由纪夫传》：猎奇者请自便，研究者请审慎

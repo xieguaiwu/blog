@@ -9,6 +9,32 @@ cover_type: img
 lang: en
 lang_alt: zh-CN
 slug: mishima-biography-review
+abstract_graph:
+  layout: radial
+  center: "A biography that dehumanizes its subject"
+  nodes:
+    - id: impulse
+      label: "Single sexual/aesthetic impulse"
+      sub: "one theory explains a life"
+      edge: "reductionism"
+    - id: symptom
+      label: "Mishima as his era's malady"
+      sub: "pathology over personhood"
+      edge: "portrait"
+    - id: sontag
+      label: "Sontag's fervent interpreter"
+      sub: "decoding destroys the cipher"
+      edge: "parallel"
+    - id: trial
+      label: "Biography as trial"
+      sub: "cross-examination of witnesses"
+      edge: "method"
+    - id: balance
+      label: "Contour vs substance"
+      edge: "demand"
+    - id: gaps
+      label: "Gaps as windows into a person"
+      edge: "alternative"
 ---
 
 > 🤖 **AI Translation Notice**: This article was originally written in Chinese and translated to English by AI. The original Chinese version is available [here](/zh-CN/2025/01/15/mishima-biography-review/). Some nuances may differ from human translation.

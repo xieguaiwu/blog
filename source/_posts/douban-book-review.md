@@ -9,6 +9,33 @@ cover_type: img
 lang: en
 lang_alt: zh-CN
 slug: douban-book-review
+abstract_graph:
+  layout: radial
+  center: "Mapping the logic of Foucault's Death and the Labyrinth"
+  nodes:
+    - id: encounter
+      label: "A chance encounter"
+      sub: "La Vue, How I Wrote Certain of My Books"
+      edge: "origin"
+    - id: lens
+      label: "The lens: visible vs invisible"
+      sub: "difference and identity displaced"
+      edge: "key handle"
+    - id: chapters
+      label: "Eight chapters, one method"
+      sub: "repeated with neologisms"
+      edge: "structure"
+    - id: turn
+      label: "Chapter Five: the turn"
+      sub: "metamorphosis and labyrinth"
+      edge: "pivot"
+    - id: mirror
+      label: "A mirror of death and birth"
+      edge: "conclusion"
+    - id: translation
+      label: "Notes on the Chinese translation"
+      sub: "compared with the English edition"
+      edge: "appendix"
 ---
 
 > 🤖 **AI Translation Notice**: This article was originally written in Chinese and translated to English by AI. The original Chinese version is available [here](/zh-CN/2024/06/15/douban-book-review/). Some nuances may differ from human translation.

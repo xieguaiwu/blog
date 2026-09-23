@@ -9,6 +9,33 @@ cover_type: img
 lang: en
 lang_alt: zh-CN
 slug: china-economic-dilemma
+abstract_graph:
+  layout: radial
+  center: "Political-system particularity as structural root cause"
+  nodes:
+    - id: model
+      label: "Five-layer cycle model"
+      sub: "P1 production to P6 state"
+      edge: "framework"
+    - id: standards
+      label: "Health standards vs Chinese reality"
+      sub: "deviations by layer"
+      edge: "diagnosis"
+    - id: credit
+      label: "Politicized credit allocation"
+      sub: "misallocation, shadow banking"
+      edge: "root"
+    - id: consumption
+      label: "Consumption contracts, overcapacity"
+      sub: "debt accumulation"
+      edge: "consequence"
+    - id: exit
+      label: "Absent exit mechanisms"
+      sub: "no exposure, no liquidation"
+      edge: "amplifier"
+    - id: pendulum
+      label: "Policy oscillates: growth vs risk"
+      edge: "closed loop"
 ---
 
 > 🤖 **AI Translation Notice**: This article was originally written in Chinese and translated to English by AI. The original Chinese version is available [here](/zh-CN/2026/07/01/china-economic-dilemma/). Some nuances may differ from human translation.

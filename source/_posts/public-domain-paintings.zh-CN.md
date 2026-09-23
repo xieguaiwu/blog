@@ -10,6 +10,30 @@ cover: /img/bg/art/cover/C1.avif
 cover_type: img
 lang: zh-CN
 slug: public-domain-paintings
+abstract_graph:
+  layout: radial
+  center: "十六套背景，一条标准：暗、静、有重量"
+  nodes:
+    - id: anchor
+      label: "死之岛"
+      sub: "最先定下的锚"
+      edge: "起点"
+    - id: tone
+      label: "阴郁诸家"
+      sub: "Goya、Stuck、Simberg 等"
+      edge: "选图"
+    - id: four
+      label: "四种拼贴样式"
+      sub: "满铺、细节、三联、层叠"
+      edge: "结构"
+    - id: treatment
+      label: "统一处理"
+      sub: "降饱和、压暗、暗角与颗粒"
+      edge: "管线"
+    - id: legibility
+      label: "文字可读性"
+      sub: "上下渐变遮罩"
+      edge: "约束"
 ---
 
 > 📝 **Article Type**: Reference

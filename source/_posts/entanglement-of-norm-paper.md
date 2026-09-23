@@ -6,6 +6,32 @@ tags: [research-paper, international-relations, history]
 description: "This study examines the formation and crisis of international norms between the Congress of Vienna (1815) and the Revolutions of 1848."
 cover: /img/bg/art/cover/C1.avif
 cover_type: img
+abstract_graph:
+  layout: radial
+  center: "The entanglement of norm: why the Vienna order failed"
+  nodes:
+    - id: binary
+      label: "State-as-entity vs state-as-organism"
+      edge: "core binary"
+    - id: vienna
+      label: "Congress of Vienna (1815)"
+      sub: "balance of power, legality"
+      edge: "case"
+    - id: forces
+      label: "Nationalism, liberalism, industry"
+      sub: "transformative forces ignored"
+      edge: "blind spot"
+    - id: theory
+      label: "Schmitt and Carr"
+      sub: "sovereignty, exception, realism"
+      edge: "framework"
+    - id: revolutions
+      label: "Revolutions of 1848"
+      edge: "crisis"
+    - id: representation
+      label: "Crisis of representation"
+      sub: "domestic legitimacy vs world order"
+      edge: "implication"
 ---
 
 > 📝 **Article Type**: Research Paper

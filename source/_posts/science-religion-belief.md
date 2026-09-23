@@ -6,6 +6,32 @@ tags: [research-paper, religion, science]
 description: "The one and only value of any normative axiom for a community, from religions to ideology, would be its unprovability, the source of meaning and existential comfort."
 cover: /img/bg/art/cover/B3.avif
 cover_type: img
+abstract_graph:
+  layout: radial
+  center: "Science cannot threaten belief; it clears its ground"
+  nodes:
+    - id: axioms
+      label: "Unprovable axioms"
+      sub: "source of meaning and comfort"
+      edge: "premise"
+    - id: paradigms
+      label: "Normative vs descriptive"
+      sub: "'ought' vs 'how'"
+      edge: "distinction"
+    - id: marxism
+      label: "Marxism as secular Heilsgeschichte"
+      edge: "case"
+    - id: elucidation
+      label: "Science strips explanatory power"
+      sub: "no more total worldview"
+      edge: "disruption"
+    - id: why
+      label: "Belief keeps the 'why'"
+      sub: "healing the existential void"
+      edge: "retreat"
+    - id: coexistence
+      label: "Two paradigms, one person"
+      edge: "conclusion"
 ---
 
 > 📝 **Article Type**: Research Paper

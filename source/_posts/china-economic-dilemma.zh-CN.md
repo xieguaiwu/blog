@@ -8,6 +8,33 @@ cover: /img/bg/art/cover/A4.avif
 cover_type: img
 lang: zh-CN
 slug: china-economic-dilemma
+abstract_graph:
+  layout: radial
+  center: "政治体制特殊性是结构性根源"
+  nodes:
+    - id: model
+      label: "五层循环模型"
+      sub: "P1 生产层 至 P6 国家层"
+      edge: "框架"
+    - id: standards
+      label: "健康标准 vs 中国实况"
+      sub: "逐层偏差"
+      edge: "诊断"
+    - id: credit
+      label: "信贷配置政治化"
+      sub: "错配、影子银行"
+      edge: "根源"
+    - id: consumption
+      label: "消费萎缩、产能过剩"
+      sub: "债务累积"
+      edge: "后果"
+    - id: exit
+      label: "出清机制缺失"
+      sub: "问题不暴露、不清算"
+      edge: "放大器"
+    - id: pendulum
+      label: "政策钟摆：稳增长 / 防风险"
+      edge: "闭环"
 ---
 
 >因个人精力与所掌握资源的有限，本文诉诸定性论述，而难以提供足够的定量论述。为了弥补可能的严谨性问题，**以结构主义思想为支持的形式化定义是我的解决方案**，其能够帮助读者理解我的论证过程，以至于读者能够诊断我可能的论证缺陷。

@@ -8,6 +8,33 @@ cover: /img/bg/art/cover/B2.avif
 cover_type: img
 lang: zh-CN
 slug: douban-book-review
+abstract_graph:
+  layout: radial
+  center: "为《雷蒙·鲁塞尔》梳理内部逻辑"
+  nodes:
+    - id: encounter
+      label: "一场书店偶遇"
+      sub: "《观看》与《我是如何写作某些作品的》"
+      edge: "缘起"
+    - id: lens
+      label: "透镜：可见与不可见"
+      sub: "差异与同一的错位"
+      edge: "关键抓手"
+    - id: chapters
+      label: "八章，一种方法"
+      sub: "以新词反复重述"
+      edge: "结构"
+    - id: turn
+      label: "第五章：转折"
+      sub: "变形与迷宫"
+      edge: "枢轴"
+    - id: mirror
+      label: "死与生的镜子"
+      edge: "结论"
+    - id: translation
+      label: "中译本商榷"
+      sub: "对照英文版逐条比较"
+      edge: "附录"
 ---
 
 注：本文是我为方便其他读者理解福柯的《雷蒙·鲁塞尔》一书而对其内在脉络的梳理（除了第一章）与外在的写作背景的补充，以及我作为一个不会法语的英汉双语读者（相信大部分读者都和我一样）对此译本的一些修改建议。

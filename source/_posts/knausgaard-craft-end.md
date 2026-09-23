@@ -9,6 +9,34 @@ cover_type: img
 lang: en
 lang_alt: zh-CN
 slug: knausgaard-craft-end
+abstract_graph:
+  layout: radial
+  center: "Krasznahorkai dismantles Mishima's aesthetic system"
+  nodes:
+    - id: mishima
+      label: "Mishima's monistic aesthetic"
+      sub: "body, spirit, practice"
+      edge: "target"
+    - id: split
+      label: "Spirit vs practice, torn apart"
+      sub: "struggle, not fusion"
+      edge: "fissure"
+    - id: hermann
+      label: "Hermann: a martyr's futility"
+      sub: "classical spirit ends in nothing"
+      edge: "anti-Mishima I"
+    - id: youths
+      label: "The depraved youths"
+      sub: "hedonistic destruction"
+      edge: "anti-Mishima II"
+    - id: confrontation
+      label: "Two modes of resistance"
+      sub: "no victor, no result"
+      edge: "structure"
+    - id: dimensions
+      label: "Three anti-Mishima dimensions"
+      sub: "prose, narrative, metaphysical"
+      edge: "conclusion"
 ---
 
 > 🤖 **AI Translation Notice**: This article was originally written in Chinese and translated to English by AI. The original Chinese version is available [here](/zh-CN/2024/03/26/knausgaard-craft-end/). Some nuances may differ from human translation.

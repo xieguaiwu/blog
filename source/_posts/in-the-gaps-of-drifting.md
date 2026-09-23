@@ -9,6 +9,33 @@ cover_type: img
 lang: en
 lang_alt: zh-CN
 slug: in-the-gaps-of-drifting
+abstract_graph:
+  layout: radial
+  center: "Melancholy as an irreducible part of the self"
+  nodes:
+    - id: states
+      label: "Three states of selfhood"
+      sub: "detachment, introspection, burnout"
+      edge: "structure"
+    - id: closed
+      label: "The closed space and its rules"
+      sub: "private order devastated"
+      edge: "condition"
+    - id: aesthetic
+      label: "Aesthetic of dehumanization"
+      sub: "marvelling at the mechanism"
+      edge: "ambivalence"
+    - id: recovery
+      label: "'Recovery' as repetition"
+      sub: "hamsters on a wheel"
+      edge: "critique"
+    - id: drift
+      label: "Gaps of drifting"
+      sub: "waiting for the next cycle"
+      edge: "present"
+    - id: redemption
+      label: "Longing for final redemption"
+      edge: "hope"
 ---
 
 > 🤖 **AI Translation Notice**: This article was originally written in Chinese and translated to English by AI. The original Chinese version is available [here](/zh-CN/2024/12/01/in-the-gaps-of-drifting/). Some nuances may differ from human translation.

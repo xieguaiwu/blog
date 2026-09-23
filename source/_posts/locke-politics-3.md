@@ -6,6 +6,33 @@ tags: [research-paper, political-philosophy, locke]
 description: "Locke Politics Paper"
 cover: /img/bg/art/cover/C1.avif
 cover_type: img
+abstract_graph:
+  layout: radial
+  center: "A constitutional crisis: legality and legitimacy diverge"
+  nodes:
+    - id: levels
+      label: "Democracy on paper vs in administration"
+      edge: "two levels"
+    - id: tension
+      label: "Bureaucratic efficiency vs legitimacy"
+      sub: "two ultimate principles collide"
+      edge: "tension"
+    - id: algorithm
+      label: "Algorithmic governance"
+      sub: "surveillance capitalism, exception"
+      edge: "escalation"
+    - id: fragility
+      label: "Performance legitimacy is unstable"
+      sub: "capricious, one-way downhill"
+      edge: "fragility"
+    - id: civil
+      label: "Civic society: ex-post only"
+      sub: "cannot prevent tyranny"
+      edge: "limit"
+    - id: education
+      label: "Education as the fourth power"
+      sub: "guardian of normative consensus"
+      edge: "proposal"
 ---
 
 > 📝 **Article Type**: Research Paper

@@ -8,6 +8,34 @@ cover: /img/bg/art/cover/D1.avif
 cover_type: img
 lang: zh-CN
 slug: knausgaard-craft-end
+abstract_graph:
+  layout: radial
+  center: "克拉斯诺霍尔卡伊对三岛美学的拆解"
+  nodes:
+    - id: mishima
+      label: "三岛的一元美学"
+      sub: "肉体、精神、实践"
+      edge: "对象"
+    - id: split
+      label: "精神与实践的分裂"
+      sub: "靠激烈斗争组合"
+      edge: "裂痕"
+    - id: hermann
+      label: "荷曼：徒劳的殉道"
+      sub: "古典精神的无意义结局"
+      edge: "拆解一"
+    - id: youths
+      label: "颓废青年：享乐的毁灭"
+      sub: "自我推动的力"
+      edge: "拆解二"
+    - id: confrontation
+      label: "两种抵抗的对照"
+      sub: "无胜者、无结果"
+      edge: "结构"
+    - id: dimensions
+      label: "「反三岛」三个位面"
+      sub: "叙述、叙事、形而上"
+      edge: "结论"
 ---
 
 ## 三岛由纪夫思想概述：

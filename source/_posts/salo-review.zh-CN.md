@@ -8,6 +8,32 @@ cover: /img/bg/art/cover/B1.avif
 cover_type: img
 lang: zh-CN
 slug: salo-review
+abstract_graph:
+  layout: radial
+  center: "帕索里尼的人间地狱：萨德、法西斯与制度"
+  nodes:
+    - id: camera
+      label: "固定镜头与对称构图"
+      sub: "以空间变化映射心理"
+      edge: "视听"
+    - id: mansion
+      label: "大宅即制度"
+      sub: "古典主义 + 未来主义画作"
+      edge: "空间"
+    - id: sound
+      label: "战斗机音效与极少配乐"
+      sub: "把战火隔离在外"
+      edge: "音效"
+    - id: sade
+      label: "萨德的数字结构"
+      sub: "四个主人、四层地狱"
+      edge: "原著"
+    - id: nietzsche
+      label: "被曲解的尼采"
+      edge: "批判"
+    - id: ending
+      label: "卫兵起舞，主人难逃"
+      edge: "结尾"
 ---
 
 结论：大师一生中排名前三的作品，精致而客观的自然主义视听语言是对萨德作品的成功驾驭，而从其中体现出的六七十年代文化批判的底色也有着相当价值。

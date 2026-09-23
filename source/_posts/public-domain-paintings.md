@@ -11,6 +11,30 @@ cover_type: img
 lang: en
 lang_alt: zh-CN
 slug: public-domain-paintings
+abstract_graph:
+  layout: radial
+  center: "Sixteen backgrounds, one criterion: dark, still, heavy"
+  nodes:
+    - id: anchor
+      label: "The Isle of the Dead"
+      sub: "the anchor image"
+      edge: "starting point"
+    - id: tone
+      label: "Goya, Stuck, Simberg, Moreau, Bosch"
+      sub: "the same quiet tone"
+      edge: "selection"
+    - id: four
+      label: "Four composition styles"
+      sub: "full bleed, insets, triptych, montage"
+      edge: "structure"
+    - id: treatment
+      label: "Uniform treatment"
+      sub: "desaturate, darken, grain"
+      edge: "pipeline"
+    - id: legibility
+      label: "Text legibility"
+      sub: "gradient masks top and bottom"
+      edge: "constraint"
 ---
 
 > 📝 **Article Type**: Reference
