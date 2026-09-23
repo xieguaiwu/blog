@@ -1,5 +1,5 @@
 ---
-title: The Provenance of Sixteen Backgrounds: A Public Domain Painting Inventory
+title: "The Provenance of Sixteen Backgrounds: A Public Domain Painting Inventory"
 date: 2026-09-13 02:30:00
 categories:
   - Aesthetics

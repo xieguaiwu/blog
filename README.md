@@ -12,7 +12,7 @@
 
 - **艺术混搭背景**：16 套由公有领域画作合成的拼贴，每次加载随机切换一张；窄屏自动改用竖版变体。
 - **古金 + 墨配色**：卡片半透明毛玻璃，让背景画作透出来；渐变遮罩保证文字始终可读。
-- **中英双语**：默认英文，文章可带 `.zh-CN.md` 中文变体（`lang` / `lang_alt` 互链）。
+- **中英双语**：默认英文；文章可带 `.zh-CN.md` 中文变体。中文版发布在 `/{lang}/` 前缀 URL（如 `/zh-CN/2024/05/24/post/`），文章页自动显示语言切换链接。
 - **Giscus 评论**：基于 GitHub Discussions。
 - **项目进度面板**：首页嵌入的活跃项目卡片。
 - **学科分类**：14 个英文学术分类（Philosophy of Mind / Political Philosophy / Aesthetics / …）。
@@ -27,13 +27,17 @@
 ├── _config.yml                 # Hexo 主配置（站点信息、URL、渲染器）
 ├── _config.butterfly.yml       # 主题配置（背景数组、配色、菜单、社交链接）
 ├── scripts/
+│   ├── lang-permalink.js       # 非默认语言文章的 /zh-CN/ 前缀 permalink
+│   ├── content-root.js         # 给正文内根绝对链接补 /blog/ 前缀
+│   ├── html-lang.js            # 按页面语言改写 <html lang>
+│   ├── lang-alt-link.js        # 文章页语言切换链接
 │   ├── inject-root.js          # 修正子目录部署下的 inject 资源路径
 │   └── ruby.js                 # 注音功能
 ├── source/
 │   ├── _posts/                 # 文章（.md = 英文，.zh-CN.md = 中文变体）
 │   ├── _data/link.yml          # 友链
 │   ├── _data/projects.yml      # 项目面板数据
-│   ├── about/  tags/  categories/  link/  projects/
+│   ├── about/  zh-CN/about/  tags/  categories/  link/  projects/
 │   ├── css/
 │   │   ├── custom.css          # 背景遮罩、卡片毛玻璃、可读性调整
 │   │   └── fonts.css
@@ -45,6 +49,7 @@
 │   │   └── quotes.js           # 直角引号切换
 │   └── img/bg/art/             # 32 张背景（16 套 × 桌面/竖版，各含 avif+jpg）
 ├── docs/backgrounds.md         # 背景素材来源与生成管线
+├── docs/plans/                 # 实施计划（如 abstract-graph）
 ├── CONTEXT_FOR_NEXT_AGENT.md   # 项目状态与配置要点（改配置前必读）
 └── .github/workflows/pages.yml # 自动部署
 ```
@@ -60,9 +65,9 @@ tags: [art, painting]         # 全英文小写连字符
 description: "..."
 cover: /img/bg/art/cover/A1.avif
 cover_type: img
-lang: en                      # 本文语言
+lang: en                      # 本文语言（en → 根路径；zh-CN → /zh-CN/ 前缀）
 lang_alt: zh-CN               # 对侧语言（可选）
-slug: my-post                 # 双版本共用，保证互链一致
+slug: my-post                 # 保留字段；Hexo 8 实际用文件名推导 slug
 ---
 
 > 🤖 **AI Translation Notice**: ...（译自中文的文章）
@@ -100,7 +105,8 @@ pnpm run format     # Prettier 格式化
 
 1. **`_config.butterfly.yml` 只能有一个 `inject:` 段**。新增注入要追加到已有段（约 line 1091），
    另起一个会让 `hexo clean` 直接 FATAL（YAML 重复 key）。
-2. **改配置后必须先 `pnpm run clean`**，否则旧缓存可能掩盖问题。
+2. **改配置或 `scripts/` 后必须先 `pnpm run clean`**，否则 `db.json` 缓存会掩盖改动
+   （`after_post_render` 的产物会被缓存，构建看起来“没生效”）。
 
 > ⚠️ GitHub 账户名是 `xieguaiwu`（g-u-**a-i**-w-u），Linux 主机名是 `xieguiawu`（g-u-**i-a**-w-u）。
 > 两者终端显示一致——拼接 URL 前用 `printf '%s' "$USER" | xxd` 核对。

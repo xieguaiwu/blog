@@ -1,6 +1,6 @@
 # CONTEXT_FOR_NEXT_AGENT.md
 
-> 最后更新：2026-09-13 15:3x
+> 最后更新：2026-09-23
 
 ## 项目当前状态
 
@@ -15,12 +15,27 @@ push 到 `main` 即自动构建部署（含 `TZ: Asia/Shanghai` 锁定，防本�
 > **任何 URL/remote/owner 拼接前必须 `printf '%s' "$USER" | xxd` 核对**——2026-09-13 因拼错导致
 > 404 误判为「仓库损坏」，并错误提议删除仓库（详见 daily/2026-09-13）。
 
-## 已完成的工作（截至 2026-09-13）
+## 已完成的工作
+
+### 双语站修复（2026-09-23）
+- **修复三处既有缺陷**（设计与验证见 `docs/plans/2026-09-23-abstract-graph.md`）：
+  1. 双语 URL 冲突：旧 `fix-lang-slug.js` 把 `.zh-CN` 后缀剥掉，en/zh 写同一路径，
+     **同一 URL 的语言在构建间随机翻转**（本地三次构建即翻转，线上是中英混杂）。
+     改为 `scripts/lang-permalink.js`：非默认语言加 `/{lang}/` 前缀。
+  2. 两篇文章 front-matter YAML 解析失败被静默丢弃（`abe-kobo-box-man.zh-CN.md` 的 description
+     引号嵌套、`public-domain-paintings.md` 的 title 未加引号）——已修，21/21 文件通过解析。
+  3. 正文内根绝对链接缺 `/blog/` 前缀（AI 声明互链、配图、About 互链全部 404）——
+     新增 `scripts/content-root.js` 统一补齐（跳过代码块，root=`/` 时自动失效）。
+- **新增**：`scripts/html-lang.js`（按页改写 `<html lang>`）、`scripts/lang-alt-link.js`（文章页语言切换链接）。
+- **迁移**：`source/about/index.zh-CN.md` → `source/zh-CN/about/index.md`（URL `/zh-CN/about/`）。
+- **验证**：干净构建 0 ERROR；13 en + 8 zh 两套 URL；全站内链 0 缺失。
+- **教训**：改 `scripts/` 后必须 `pnpm run clean`——`after_post_render` 产物会被 `db.json` 缓存，不 clean 会“看起来没生效”。
 
 ### 内容
 - **19 篇文章**：12 篇从本地作品转入（docx/tex/网页/豆瓣抓取）+ 2 篇站点说明（开张帖已删）+ 双语变体
-- **双语架构**：`language: en`（默认）+ `languages: [en, zh-CN]`；7 篇文章有完整中英双版本
-  （`.md` = 英文，`.zh-CN.md` = 中文，同 slug，`lang`/`lang_alt` 字段互链）
+- **双语架构**：`language: en`（默认）+ `languages: [en, zh-CN]`；8 篇文章有完整中英双版本
+  （`.md` = 英文，`.zh-CN.md` = 中文；英文在根路径，中文在 `/zh-CN/` 前缀 URL，如
+  `/zh-CN/2024/05/24/abe-kobo-box-man/`；配对由文件名 slug + `lang` 决定）
 - **AI 翻译声明**：每篇译自中文的文章开头有 `> 🤖 **AI Translation Notice**` blockquote
 - **发表平台链接**：豆瓣 / Oxford JSS / arXiv 三篇有 `> 📖 **Also published on**` 链接
 - **题材标注**：每篇有 `> 📝 **Article Type**`（Research Paper / Literary Analysis / Book Review / Film Review / Personal Essay / Reference）
@@ -46,9 +61,14 @@ push 到 `main` 即自动构建部署（含 `TZ: Asia/Shanghai` 锁定，防本�
 - **配色**：古金 + 墨；卡片毛玻璃；背景渐变遮罩
 
 ### 关于页
-- `source/about/index.md`（英文）+ `source/about/index.zh-CN.md`（中文），含 lang_alt 互链
+- `source/about/index.md`（英文）+ `source/zh-CN/about/index.md`（中文，URL `/zh-CN/about/`），含 lang_alt 互链
 
 ## 遗留问题 / 待办
+
+- [ ] **双语并列策略待定**（2026-09-23）：修复后首页/归档/RSS 同时列出中英两版；
+      如需「仅默认语言 + 语言切换」可加生成器过滤（约 20 行）
+- [ ] **Abstract Graph 进行中**（2026-09-23）：计划见 `docs/plans/2026-09-23-abstract-graph.md`——
+      机制 + 试点（abe 中英 / teddy）后批量补齐其余文章
 
 - [ ] **博客侧反向启发未做**：可把 GitHub 主页的维特根斯坦语录（`A whole mythology is deposited in our language.`）
       加入引文轮播；About 页可加「Aesthetical Preference」（Fallen Angel / K.Sunnerberg / Monokai-Pro / Sway）
@@ -63,8 +83,10 @@ push 到 `main` 即自动构建部署（含 `TZ: Asia/Shanghai` 锁定，防本�
 - **`_config.butterfly.yml` 只有一个 `inject:` 段**（约 line 1091）。新增注入必须**追加到已有段**，
   不能在文件顶部另起一个 `inject:`——YAML 重复 key 会导致 `hexo clean` 直接 FATAL。
 - **`category_map` / `tag_map` 的 key 必须是英文**，与文章 front-matter 中的 `categories` / `tags` 值一致。
-- **`inject` 不经过 `url_for()`**：子目录部署下需 `scripts/inject-root.js` 在生成前补 `config.root`。
-- **文章 front-matter 可选字段**：`lang` / `lang_alt` / `slug` / `cover_type`。
+- **`inject` 不经过 `url_for()`**：子目录部署下需 `scripts/inject-root.js` 在生成前补 `config.root`；
+  正文链接同理，由 `scripts/content-root.js` 在渲染后补齐。
+- **文章 front-matter 可选字段**：`lang` / `lang_alt` / `cover_type`（`slug` 字段被 Hexo 8 忽略，
+  slug 由文件名推导；双语配对 = 文件名 slug + `lang`）。
 
 ## 本地开发
 
