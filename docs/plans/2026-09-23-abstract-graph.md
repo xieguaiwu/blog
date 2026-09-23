@@ -14,8 +14,9 @@
 ## 执行状态（2026-09-23）
 
 - ✅ **Phase 0 完成**（commit `0344133`）：语言前缀 permalink、两处 YAML 修复、content-root 链接补齐、about 页迁移、按页 html lang、语言互链。验证：21 页（13 en + 8 zh）、构建 0 ERROR、全站内链 0 缺失。
-- ✅ **Phase 1 完成**（本次提交）：渲染器 + 样式 + 试点数据（abe 中英 / teddy）+ 22 例单测 + CI test 步骤；momus 审查后修复（自链接/保留 id/转义/配置驱动 permalink 等）。截图见 `~/Desktop/blog-work/shots/ag/`（12 张：1440/768/390 × 明/暗 × 中英）。
-- ⏳ **Phase 2/3 待用户评审试点后进行**：其余 19 个文件的图数据、全站验证、部署核查。
+- ✅ **Phase 1 完成**（commit `d7a2bc2`）：渲染器 + 样式 + 试点数据（abe 中英 / teddy）+ 22 例单测 + CI test 步骤；momus 审查后修复（自链接/保留 id/转义/配置驱动 permalink 等）。截图见 `~/Desktop/blog-work/shots/ag/`（12 张：1440/768/390 × 明/暗 × 中英）。
+- ✅ **Phase 2 完成**（commit `3b2b458`）：其余 18 个文件图数据补齐（8 组双语对 + 4 篇单语），构建 0 告警。
+- ✅ **Phase 3 完成**：本地验证（22/22 单测、21/21 页含图、全站内链 0 缺失）→ 推送 → CI 两轮 success → 线上核查（两语言文章页 200/图存在/html lang 正确/抽样内链 0 非 200）。
 
 ## Global Constraints
 
