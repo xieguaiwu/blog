@@ -7,11 +7,11 @@
   if (window.location.pathname !== '/' && window.location.pathname !== '/index.html') return;
 
   const projects = [
-    { name: "GK Research Paper", desc: "Graduate-level academic paper — multi-chapter study with empirical analysis", progress: 85, status: "Active", color: "green" },
+    { name: "GK Research Paper", desc: "Glaubenskrieg — graduate-level paper with empirical analysis, 5-day pipeline benchmark and reproduction scripts (completed 2026-09)", progress: 100, status: "Published", color: "blue" },
     { name: "SHARK Quant System", desc: "A-share factor research engine with live paper trading", progress: 70, status: "Active", color: "green" },
     { name: "VERSION2.5 Strategy", desc: "American multi-factor quantitative strategy with revival research", progress: 65, status: "Active", color: "orange" },
-    { name: "Wittgenstein Corpus", desc: "Seven-volume facsimile & transcription edition (v1.1 released)", progress: 98, status: "Published", color: "blue" },
-    { name: "Android App Suite", desc: "Five apps submitted for F-Droid inclusion", progress: 90, status: "Review", color: "orange" },
+    { name: "Wittgenstein Corpus", desc: "Seven-volume facsimile & transcription edition (v1.1 released)", progress: 100, status: "Published", color: "blue" },
+    { name: "Android App Suite", desc: "Five Kotlin apps — roar (Cantonese IME), android-rebirth, pocket-llm-api-checker, picture-trans, currency-transfer (FX Pixel)", progress: 90, status: "Review", color: "orange" },
     { name: "LLM Price Benchmark", desc: "Pricing and capability tracking for open-weight language models", progress: 80, status: "Active", color: "green" },
     { name: "Personal Blog", desc: "Hexo + Butterfly academic blog with bilingual support", progress: 95, status: "Launched", color: "purple" },
     { name: "Novel Research", desc: "Weimar Republic historical research for fiction writing", progress: 40, status: "Research", color: "gold" },

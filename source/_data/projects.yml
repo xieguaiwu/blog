@@ -1,7 +1,7 @@
 - name: "GK Research Paper"
-  description: "Graduate-level academic paper — multi-chapter study with empirical analysis and case studies"
-  progress: 85
-  status: active
+  description: "Glaubenskrieg — graduate-level paper with empirical analysis, 5-day pipeline benchmark and reproduction scripts (completed 2026-09)"
+  progress: 100
+  status: published
   category: paper
 
 - name: "SHARK Quant System"
@@ -18,12 +18,12 @@
 
 - name: "Wittgenstein Corpus"
   description: "Seven-volume facsimile and transcription edition of Wittgenstein's coded passages"
-  progress: 98
+  progress: 100
   status: published
   category: publication
 
 - name: "Android App Suite"
-  description: "Five accessibility and utility Android apps submitted for F-Droid inclusion"
+  description: "Five Kotlin apps — roar (Cantonese IME), android-rebirth, pocket-llm-api-checker, picture-trans, currency-transfer (FX Pixel)"
   progress: 90
   status: review
   category: code
