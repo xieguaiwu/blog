@@ -16,7 +16,8 @@
     { name: "Personal Blog", desc: "Hexo + Butterfly academic blog with bilingual support", progress: 95, status: "Launched", color: "purple" },
     { name: "Novel Research", desc: "Weimar Republic historical research for fiction writing", progress: 40, status: "Research", color: "gold" },
     { name: "Remote Compute Cluster", desc: "Multi-node distributed research infrastructure", progress: 85, status: "Active", color: "green" },
-    { name: "ML Training Pipeline", desc: "Automated training infrastructure with watchdog monitoring", progress: 75, status: "Active", color: "green" },
+    { name: "ML Training Pipeline", desc: "Automated training infrastructure with watchdog monitoring (train-watch, pi-resmon)", progress: 75, status: "Active", color: "green" },
+    { name: "LLM Acquisition Research", desc: "LLMs and Impossible Language Acquisition — arXiv:2602.08437 paper repo with active gpu7 training grid (prereg/capmatch/LSTM, multi-branch)", progress: 85, status: "Active", color: "green" },
   ];
 
   const statusClass = {

@@ -53,7 +53,13 @@
   category: infra
 
 - name: "ML Training Pipeline"
-  description: "Automated training infrastructure with watchdog and monitoring"
+  description: "Automated training infrastructure with watchdog and monitoring (train-watch, pi-resmon)"
   progress: 75
   status: active
   category: infra
+
+- name: "LLM Acquisition Research"
+  description: "LLMs and Impossible Language Acquisition — arXiv:2602.08437 paper repo with active gpu7 training grid (prereg/capmatch/LSTM, multi-branch)"
+  progress: 85
+  status: active
+  category: research
