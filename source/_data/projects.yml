@@ -1,5 +1,5 @@
 - name: "GK Research Paper"
-  description: "Glaubenskrieg — graduate-level paper with empirical analysis, 5-day pipeline benchmark and reproduction scripts (completed 2026-09)"
+  description: "Glaubenskrieg — graduate-level paper with empirical analysis, 5-day pipeline benchmark and reproduction scripts (completed 2026-09; submission package 2026-09-29)"
   progress: 100
   status: published
   category: paper
@@ -11,8 +11,8 @@
   category: quant
 
 - name: "VERSION2.5 Strategy"
-  description: "American multi-factor quantitative strategy with paper trading and revival research"
-  progress: 65
+  description: "American multi-factor quantitative strategy with paper trading; H1 revival-judgment prereg locked (2026-09)"
+  progress: 68
   status: active
   category: quant
 
@@ -59,7 +59,19 @@
   category: infra
 
 - name: "LLM Acquisition Research"
-  description: "LLMs and Impossible Language Acquisition — arXiv:2602.08437 paper repo with active gpu7 training grid (prereg/capmatch/LSTM, multi-branch)"
+  description: "LLMs and Impossible Language Acquisition — arXiv:2602.08437 paper repo with active gpu7 training grid (prereg/capmatch/LSTM/cald, multi-branch)"
   progress: 85
   status: active
   category: research
+
+- name: "Form-Meaning Fusion"
+  description: "Quantitative semantics–syntax interface study — channel decomposition of meaning into form (morphology / word order / lexicon / pragmatics); 3 pilots complete, working paper drafted"
+  progress: 35
+  status: active
+  category: research
+
+- name: "Anti-Personification Paper"
+  description: "Analytic philosophy of religion — bare theism, projection, and the second-order transgression of personified belief (outline and title locked)"
+  progress: 15
+  status: research
+  category: paper

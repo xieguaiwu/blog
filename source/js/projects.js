@@ -7,9 +7,9 @@
   if (window.location.pathname !== '/' && window.location.pathname !== '/index.html') return;
 
   const projects = [
-    { name: "GK Research Paper", desc: "Glaubenskrieg — graduate-level paper with empirical analysis, 5-day pipeline benchmark and reproduction scripts (completed 2026-09)", progress: 100, status: "Published", color: "blue" },
+    { name: "GK Research Paper", desc: "Glaubenskrieg — graduate-level paper with empirical analysis, 5-day pipeline benchmark and reproduction scripts (completed 2026-09; submission package 2026-09-29)", progress: 100, status: "Published", color: "blue" },
     { name: "SHARK Quant System", desc: "A-share factor research engine with live paper trading", progress: 70, status: "Active", color: "green" },
-    { name: "VERSION2.5 Strategy", desc: "American multi-factor quantitative strategy with revival research", progress: 65, status: "Active", color: "orange" },
+    { name: "VERSION2.5 Strategy", desc: "American multi-factor quantitative strategy; H1 revival-judgment prereg locked (2026-09)", progress: 68, status: "Active", color: "orange" },
     { name: "Wittgenstein Corpus", desc: "Seven-volume facsimile & transcription edition (v1.1 released)", progress: 100, status: "Published", color: "blue" },
     { name: "Android App Suite", desc: "Five Kotlin apps — roar (Cantonese IME), android-rebirth, pocket-llm-api-checker, picture-trans, currency-transfer (FX Pixel)", progress: 90, status: "Review", color: "orange" },
     { name: "LLM Price Benchmark", desc: "Pricing and capability tracking for open-weight language models", progress: 80, status: "Active", color: "green" },
@@ -17,7 +17,9 @@
     { name: "Novel Research", desc: "Weimar Republic historical research for fiction writing", progress: 40, status: "Research", color: "gold" },
     { name: "Remote Compute Cluster", desc: "Multi-node distributed research infrastructure", progress: 85, status: "Active", color: "green" },
     { name: "ML Training Pipeline", desc: "Automated training infrastructure with watchdog monitoring (train-watch, pi-resmon)", progress: 75, status: "Active", color: "green" },
-    { name: "LLM Acquisition Research", desc: "LLMs and Impossible Language Acquisition — arXiv:2602.08437 paper repo with active gpu7 training grid (prereg/capmatch/LSTM, multi-branch)", progress: 85, status: "Active", color: "green" },
+    { name: "LLM Acquisition Research", desc: "LLMs and Impossible Language Acquisition — arXiv:2602.08437 paper repo with active gpu7 training grid (prereg/capmatch/LSTM/cald, multi-branch)", progress: 85, status: "Active", color: "green" },
+    { name: "Form-Meaning Fusion", desc: "Quantitative semantics–syntax interface study — channel decomposition of meaning into form (morphology / word order / lexicon / pragmatics); 3 pilots complete, working paper drafted", progress: 35, status: "Active", color: "green" },
+    { name: "Anti-Personification Paper", desc: "Analytic philosophy of religion — bare theism, projection, and the second-order transgression of personified belief", progress: 15, status: "Research", color: "gold" },
   ];
 
   const statusClass = {
