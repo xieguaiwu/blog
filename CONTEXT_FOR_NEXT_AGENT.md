@@ -1,6 +1,6 @@
 # CONTEXT_FOR_NEXT_AGENT.md
 
-> 最后更新：2026-09-23
+> 最后更新：2026-10-04
 
 ## 项目当前状态
 
@@ -17,6 +17,13 @@ push 到 `main` 即自动构建部署（含 `TZ: Asia/Shanghai` 锁定，防本�
 
 ## 已完成的工作
 
+### 项目面板同步（2026-10-04）
+- 对照 09-27 同步后的全量 repo 推送（gh api，50+ 仓），三镜像（`source/_data/projects.yml` / `source/js/projects.js` / `source/projects/index.html`）同步为 13 条：
+- 新增 **Form-Meaning Fusion**（35% active：三 pilot 完成 + working paper 编译，repo private）与 **Anti-Personification Paper**（15% research：plan v1.4.0 标题/大纲锁定）。
+- VERSION2.5：H1 判活预注册 LOCK + 判定引擎首跑 → 65%→68%；GK：补投稿包 2026-09-29；LLM Acquisition：分支列表补 `cald`；blog 卡片文章数 14→13（旧值漂移修正）。
+- SHARK 等 7 项仅例行推送，不动。首页面板卡片数 11→13（`projects.js` 渲染全部条目，无截断）。
+- 验证：三镜像名称/进度逐项对齐 · clean+build 0 ERROR · `pnpm test` fail 0 · CI `pages.yml` success · 线上 `/projects/` 200 且新卡片在位（commit `7374264`）。
+
 ### 双语站修复（2026-09-23）
 - **修复三处既有缺陷**（设计与验证见 `docs/plans/2026-09-23-abstract-graph.md`）：
   1. 双语 URL 冲突：旧 `fix-lang-slug.js` 把 `.zh-CN` 后缀剥掉，en/zh 写同一路径，
@@ -32,7 +39,7 @@ push 到 `main` 即自动构建部署（含 `TZ: Asia/Shanghai` 锁定，防本�
 - **教训**：改 `scripts/` 后必须 `pnpm run clean`——`after_post_render` 产物会被 `db.json` 缓存，不 clean 会“看起来没生效”。
 
 ### 内容
-- **19 篇文章**：12 篇从本地作品转入（docx/tex/网页/豆瓣抓取）+ 2 篇站点说明（开张帖已删）+ 双语变体
+- **13 篇英文文章 / 21 个 post 文件**：12 篇从本地作品转入（docx/tex/网页/豆瓣抓取）+ 2 篇站点说明（开张帖已删）；其中 8 篇有 zh-CN 变体
 - **双语架构**：`language: en`（默认）+ `languages: [en, zh-CN]`；8 篇文章有完整中英双版本
   （`.md` = 英文，`.zh-CN.md` = 中文；英文在根路径，中文在 `/zh-CN/` 前缀 URL，如
   `/zh-CN/2024/05/24/abe-kobo-box-man/`；配对由文件名 slug + `lang` 决定）
@@ -54,7 +61,7 @@ push 到 `main` 即自动构建部署（含 `TZ: Asia/Shanghai` 锁定，防本�
 - **页脚**（`source/js/runtime.js`）：Cioran 引文 + 灵感来源致谢链接 zhdbk3
 - **Giscus 评论**：已启用。`repo_id: R_kgDOUYPQRA` / `category_id: DIC_kwDOUYPQRM4DFe7s` / `data-lang: en`。
   前置条件（用户已在网页端完成）：仓库开 Discussions + 装 giscus GitHub App
-- **项目进度面板**：`source/js/projects.js` 经 `inject.bottom` 注入，仅在首页渲染 10 个项目卡片
+- **项目进度面板**：三镜像**必须同步修改**——`source/_data/projects.yml`（规范数据）、`source/js/projects.js`（经 `inject.bottom` 注入，首页渲染全部 13 个卡片，无截断）、`source/projects/index.html`（独立页，footer 有 `Last updated` 日期）；同步时机=对照 GitHub repo 推送状态（上轮 09-27、本轮 10-04）
 - **友链**：6 条（GitHub / Bilibili / 抖音 / 豆瓣 / Oxford JSS / arXiv），见 `source/_data/link.yml`
 - **社交图标**：GitHub / Atom / ISAA
 - **艺术背景**：16 套 × 2 版式（桌面 2560×1440 / 竖版 1200×1800），AVIF+JPG，随机切换，窄屏自动换竖版
@@ -71,6 +78,8 @@ push 到 `main` 即自动构建部署（含 `TZ: Asia/Shanghai` 锁定，防本�
   线上核查通过（2026-09-23：两语言文章页均 200、图存在、html lang 正确、抽样内链 0 非 200）。
 
 ## 遗留问题 / 待办
+
+- [ ] **Dashboard 候选未收录**（2026-10-04 审计）：`sat-mock`（09-27 建仓的 SAT 模考工具）与四个 krieg 加密仓（Memekrieg/Bitkrieg/Marktkrieg/BitAngriff，上轮已审未收）——是否入面板待定夺
 
 - [ ] **双语并列策略待定**（2026-09-23）：修复后首页/归档/RSS 同时列出中英两版；
       如需「仅默认语言 + 语言切换」可加生成器过滤（约 20 行）
@@ -139,4 +148,4 @@ pnpm run clean      # 清缓存（改配置后必须先 clean 再 build）
 
 ## 最后更新时间
 
-2026-09-13 15:3x
+2026-10-04 14:45
