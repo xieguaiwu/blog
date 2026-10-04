@@ -24,6 +24,12 @@ push 到 `main` 即自动构建部署（含 `TZ: Asia/Shanghai` 锁定，防本�
 - SHARK 等 7 项仅例行推送，不动。首页面板卡片数 11→13（`projects.js` 渲染全部条目，无截断）。
 - 验证：三镜像名称/进度逐项对齐 · clean+build 0 ERROR · `pnpm test` fail 0 · CI `pages.yml` success · 线上 `/projects/` 200 且新卡片在位（commit `7374264`）。
 
+### 发帖工具（2026-10-04）
+- 新增 `tools/post.mjs`（`pnpm run post`）：`new`（建草稿到 `source/_drafts/`，双语对/翻译声明/封面/Article Type 模板）、`check`（YAML 解析 + category_map + lang/文件名一致 + cover 存在 + 配对/声明警告，**abstract_graph 直接复用 `scripts/abstract-graph.js` 的 validateSpec**）、`release`（先校验后把草稿移入 `_posts/`，跑 `pnpm test` + build，失败自动回滚；`--push` 才提交推送并打印发布 URL）。
+- 依赖：devDep `js-yaml@4`（与 hexo-front-matter 同主版本，保真 hexo 解析行为）；`package.json` 增 `post` 脚本。
+- 测试 `test/post-tool.test.js` 21 条（`pnpm test` 共 43 条全绿，CI `pnpm test` 同步把关）；E2E 冒烟 new→check→release→清理通过。**回滚方向 bug 由单测抓获**（初版 rollback 永远 no-op，已修）。
+- `check` 全量跑出 1 条存量硬伤（见遗留问题），存量文章其余零错误（单测钉住该基线，新增错误即测试失败）。
+
 ### 双语站修复（2026-09-23）
 - **修复三处既有缺陷**（设计与验证见 `docs/plans/2026-09-23-abstract-graph.md`）：
   1. 双语 URL 冲突：旧 `fix-lang-slug.js` 把 `.zh-CN` 后缀剥掉，en/zh 写同一路径，
@@ -79,6 +85,8 @@ push 到 `main` 即自动构建部署（含 `TZ: Asia/Shanghai` 锁定，防本�
 
 ## 遗留问题 / 待办
 
+- [ ] **`douban-book-review.md` 分类漂移**（2026-10-04 工具新发现）：`categories: [Philosophy of Language]` 从未进 `_config.yml` 的 `category_map`（现 14 类），线上靠默认 slug 化生成 `/categories/Philosophy-of-Language/` 存活；`pnpm run post check` 的唯一 FAIL。修法二选一：a) map 加 `"Philosophy of Language": phil-lang`（README/CONTEXT 的「14 类」同步改 15，旧 URL 变） b) 改帖归入既有 14 类（丢失原分类语义）。**待定夺**，未擅改。
+
 - [ ] **Dashboard 候选未收录**（2026-10-04 审计）：`sat-mock`（09-27 建仓的 SAT 模考工具）与四个 krieg 加密仓（Memekrieg/Bitkrieg/Marktkrieg/BitAngriff，上轮已审未收）——是否入面板待定夺
 
 - [ ] **双语并列策略待定**（2026-09-23）：修复后首页/归档/RSS 同时列出中英两版；
@@ -102,7 +110,9 @@ push 到 `main` 即自动构建部署（含 `TZ: Asia/Shanghai` 锁定，防本�
 - **`inject` 不经过 `url_for()`**：子目录部署下需 `scripts/inject-root.js` 在生成前补 `config.root`；
   正文链接同理，由 `scripts/content-root.js` 在渲染后补齐。
 - **文章 front-matter 可选字段**：`lang` / `lang_alt` / `cover_type`（`slug` 字段被 Hexo 8 忽略，
-  slug 由文件名推导；双语配对 = 文件名 slug + `lang`）。
+  slug 由文件名推导；双语配对 = 文件名 slug + `lang`）。`lang_alt` 无脚本消费（语言切换靠文件名配对）。
+- **改文章/新增分类后**：跑 `pnpm run post check`（发帖工具，见 README §发帖工具）；
+  category 变更须同步 `_config.yml` `category_map`。
 
 ## 本地开发
 
@@ -148,4 +158,4 @@ pnpm run clean      # 清缓存（改配置后必须先 clean 再 build）
 
 ## 最后更新时间
 
-2026-10-04 14:45
+2026-10-04 15:20

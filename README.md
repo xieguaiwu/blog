@@ -31,8 +31,11 @@
 │   ├── content-root.js         # 给正文内根绝对链接补 /blog/ 前缀
 │   ├── html-lang.js            # 按页面语言改写 <html lang>
 │   ├── lang-alt-link.js        # 文章页语言切换链接
+│   ├── abstract-graph.js       # 图示摘要渲染 + validateSpec（发帖工具复用同一校验）
 │   ├── inject-root.js          # 修正子目录部署下的 inject 资源路径
 │   └── ruby.js                 # 注音功能
+├── tools/post.mjs              # 发帖工具（new / check / release）
+├── test/                       # 单元测试（node --test，pnpm test / CI 运行）
 ├── source/
 │   ├── _posts/                 # 文章（.md = 英文，.zh-CN.md = 中文变体）
 │   ├── _data/link.yml          # 友链
@@ -74,6 +77,25 @@ slug: my-post                 # 保留字段；Hexo 8 实际用文件名推导 s
 > 📝 **Article Type**: Research Paper
 > 📖 **Also published on**: [平台](url)
 ```
+
+## 发帖工具
+
+`tools/post.mjs` 覆盖「建草稿 → 校验 → 发布」三步：
+
+```bash
+pnpm run post new --title "Post Title" --category "Aesthetics" --zh --notice
+pnpm run post check                    # 校验全部文章与草稿
+pnpm run post release <slug>           # 草稿转正 + test + build + 打印发布 URL
+pnpm run post release <slug> --push    # 额外 git 提交推送（触发 Pages CI）
+```
+
+- **new** 必填 `--title`、`--category`（必须 ∈ `_config.yml` 的 `category_map`）；
+  可选 `--slug`（缺省由标题生成 ASCII kebab）、`--tags`、`--desc`、`--type`、`--cover`、
+  `--date`、`--zh`（同步建 `"\<slug\>.zh-CN.md"` 变体）、`--notice`（英文版带 AI 翻译声明，链接自动计算）。
+- **check** 判 FAIL：YAML 解析失败、title/date/categories 缺失、category 不在 map、
+  lang 与文件名不一致、cover 文件不存在、abstract_graph 结构非法。警告不阻断。
+- **release** 先校验后移动；test 或 build 失败自动把草稿回滚到 `_drafts`。
+- 测试 `test/post-tool.test.js` 随 `pnpm test` 运行，CI 同步把关。
 
 ## 本地开发
 
