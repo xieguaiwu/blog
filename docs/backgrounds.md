@@ -38,18 +38,29 @@
 
 ## 制作管线
 
-生成脚本在仓库外的工作目录 `~/Desktop/blog-work/gen_backgrounds.py`（Pillow + NumPy）：
+生成脚本在仓库内 `tools/backgrounds/`（Pillow + NumPy）；画板母本 `plates/`（45 张，长边 ≤ 3200px，约 80 MB）保留在仓库外的工作目录 `~/Desktop/blog-work/`，不纳版控。
+
+| 文件 | 用途 |
+| :--- | :--- |
+| `prep_plates.py` | 原始扫描件归一化为画板（需自备原图目录 `art_src/`） |
+| `gen_backgrounds.py` | 16 套拼贴生成，输出 `out/` 母版（桌面 + 竖版） |
+| `export_web.py` | 导出 AVIF/JPG + 封面 + favicon + 头像 + OG 图 |
+| `make_contact.py` | 生成选图拼版 |
+| `shoot.py` / `shoot_ag.py` | Playwright 多视口截图验证 |
+| `patch.py` | 精确字符串替换工具 |
+| `spec_butterfly.json` | 站点配置改写记录（一次性 patch spec） |
+| `plates_manifest.json` | 画板清单与尺寸 |
+| `win_art_inventory.tsv` | Windows 艺术素材全量清单（412 行） |
 
 1. **画板归一**：统一 sRGB，按需长边缩到 3200px；
 2. **构图**：按 A/B/C/D 四种样式合成，横构图素材在窄面板里改用「装裱留白（contain）」；
 3. **统一处理**：降饱和 → 压暗 → 暗角 → 上下渐变遮罩 → 胶片颗粒；
 4. **导出**：AVIF（保证体积）+ JPG（兜底），并另出竖版与卡片封面。
 
-重新生成：
+重新生成（脚本内 `ROOT` 固定指向 `~/Desktop/blog-work/`，需保留 `plates/`）：
 
 ```bash
-cd ~/Desktop/blog-work
-python3 gen_backgrounds.py          # 全部 16 套（桌面 + 竖版）
-python3 gen_backgrounds.py --only A1,C2
-python3 export_web.py               # 导出到 source/img/bg/art/
+python3 ~/Desktop/blog/tools/backgrounds/gen_backgrounds.py          # 全部 16 套（桌面 + 竖版）
+python3 ~/Desktop/blog/tools/backgrounds/gen_backgrounds.py --only A1,C2
+python3 ~/Desktop/blog/tools/backgrounds/export_web.py               # 导出到 source/img/bg/art/
 ```

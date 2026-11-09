@@ -2,6 +2,7 @@
 
 > **For agentic workers:** 按本计划任务逐项实施。步骤用 checkbox（`- [ ]`）跟踪。
 > 本计划由 2026-09-23 会话产出；所有机制已在 `/tmp/blog-build-test` 沙箱副本实测通过。
+> **迁移说明（2026-11-08）：** 截图脚本已迁至 `tools/backgrounds/`，`~/Desktop/blog-work/shots/` 验证截图已清理；下文路径为当时记录。
 
 **Goal:** 修复三处既有缺陷（双语 URL 冲突、两篇 YAML 解析失败、正文根路径链接 404），并为每篇文章增加「简明 + 图示化」的 abstract graph（图示摘要），随文章语言适配。
 

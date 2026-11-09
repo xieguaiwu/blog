@@ -1,0 +1,57 @@
+[
+ {
+  "path": "/home/xieguiawu/Desktop/blog/_config.butterfly.yml",
+  "old": "  关于: /about/ || fas fa-heart\n  相册: /gallery/ || fas fa-images",
+  "new": "  关于: /about/ || fas fa-heart"
+ },
+ {
+  "path": "/home/xieguiawu/Desktop/blog/_config.butterfly.yml",
+  "old": "social:\n  fab fa-github: https://github.com/zhdbk3 || GitHub\n  fab fa-bilibili: https://space.bilibili.com/551409211 || 哔哩哔哩 || '#fb7299'\n  fa-solid fa-feed: /atom.xml || Atom || orange",
+  "new": "social:\n  fab fa-github: https://github.com/xieguaiwu || GitHub\n  fa-solid fa-feed: /atom.xml || Atom || '#B08D57'"
+ },
+ {
+  "path": "/home/xieguiawu/Desktop/blog/_config.butterfly.yml",
+  "old": "favicon: https://avatars.githubusercontent.com/u/161030746?s=110",
+  "new": "favicon: /favicon.png"
+ },
+ {
+  "path": "/home/xieguiawu/Desktop/blog/_config.butterfly.yml",
+  "old": "avatar:\n  img: https://avatars.githubusercontent.com/u/161030746?s=110\n  effect: false",
+  "new": "avatar:\n  img: /img/avatar.png\n  effect: true"
+ },
+ {
+  "path": "/home/xieguiawu/Desktop/blog/_config.butterfly.yml",
+  "old": "background:\n  - /img/bg/mahiro/1.avif\n  - /img/bg/mahiro/2.avif\n  - /img/bg/mahiro/3.avif\n  - /img/bg/nachoneko/1.avif\n  - /img/bg/nagato/1.avif\n  - /img/bg/yukikaze/1.avif\n  - /img/bg/atri/1.avif\n  - /img/bg/others/zaoliang.avif\n  - /img/bg/others/mirror.avif",
+  "new": "# 艺术混搭背景 16 套，每次加载随机取一张\nbackground:\n  - /img/bg/art/A1.avif\n  - /img/bg/art/A2.avif\n  - /img/bg/art/A3.avif\n  - /img/bg/art/A4.avif\n  - /img/bg/art/B1.avif\n  - /img/bg/art/B2.avif\n  - /img/bg/art/B3.avif\n  - /img/bg/art/B4.avif\n  - /img/bg/art/C1.avif\n  - /img/bg/art/C2.avif\n  - /img/bg/art/C3.avif\n  - /img/bg/art/C4.avif\n  - /img/bg/art/D1.avif\n  - /img/bg/art/D2.avif\n  - /img/bg/art/D3.avif\n  - /img/bg/art/D4.avif"
+ },
+ {
+  "path": "/home/xieguiawu/Desktop/blog/_config.butterfly.yml",
+  "old": "  default_cover:\n  # - xxx.jpg",
+  "new": "  default_cover:\n    - /img/bg/art/cover/A1.avif\n    - /img/bg/art/cover/A2.avif\n    - /img/bg/art/cover/A3.avif\n    - /img/bg/art/cover/A4.avif\n    - /img/bg/art/cover/B1.avif\n    - /img/bg/art/cover/B2.avif\n    - /img/bg/art/cover/C1.avif\n    - /img/bg/art/cover/C2.avif\n    - /img/bg/art/cover/D1.avif\n    - /img/bg/art/cover/D2.avif\n    - /img/bg/art/cover/D3.avif"
+ },
+ {
+  "path": "/home/xieguiawu/Desktop/blog/_config.butterfly.yml",
+  "old": "  main: '#FF9EB0'                        # 主樱花粉 - 用于标题/重点元素\n  paginator: '#7FC7FF'                   # 柔和天空蓝 - 分页器颜色\n  button_hover: '#FF6B9C'                # 莓果粉 - 按钮悬停效果\n  text_selection: '#FFD1DC'              # 浅粉红 - 文字选中背景\n  link_color: '#FF9EB0'                  # 与主色一致\n  meta_color: '#A8A8A8'                  # 中灰色 - 辅助信息\n  hr_color: '#FFC2CD'                    # 浅粉分割线\n  code_foreground: '#E95464'             # 深粉红 - 代码文字\n  code_background: '#FFF0F5'             # 浅粉白 - 代码背景（确保可读性）\n  toc_color: '#7FC7FF'                   # 与分页器同款蓝色\n  blockquote_padding_color: '#FF9EB0'    # 主色左侧标\n  blockquote_background_color: '#FFF5F7' # 极浅粉背景\n  scrollbar_color: '#FFB6C1'             # 中等粉红\n  meta_theme_color_light: '#FFFAFC'      # 极浅粉白\n  meta_theme_color_dark: '#2A1A2C'       # 深紫粉夜间模式",
+  "new": "  main: '#B08D57'                        # 古金 - 标题与重点元素\n  paginator: '#7E8C99'                   # 石青灰 - 分页器\n  button_hover: '#D6B780'                # 浅金 - 按钮悬停\n  text_selection: '#4A3F2A'              # 暗金 - 文字选中背景\n  link_color: '#A98147'                  # 古金 - 链接\n  meta_color: '#8E8579'                  # 灰褐 - 辅助信息\n  hr_color: '#6B5F4C'                    # 深褐 - 分割线\n  code_foreground: '#D8C9A8'             # 米金 - 代码文字\n  code_background: '#1C1A17'             # 墨色 - 代码背景\n  toc_color: '#B08D57'                   # 古金 - 目录\n  blockquote_padding_color: '#B08D57'    # 古金 - 引用左侧标\n  blockquote_background_color: '#F3EDE3' # 羊皮纸 - 引用背景\n  scrollbar_color: '#8C7A5B'             # 青铜 - 滚动条\n  meta_theme_color_light: '#F3EDE3'      # 羊皮纸 - 浅色主题色\n  meta_theme_color_dark: '#14120F'       # 墨色 - 深色主题色"
+ },
+ {
+  "path": "/home/xieguiawu/Desktop/blog/_config.butterfly.yml",
+  "old": "  title_prefix_icon_color: '#FF9EB0'",
+  "new": "  title_prefix_icon_color: '#B08D57'"
+ },
+ {
+  "path": "/home/xieguiawu/Desktop/blog/_config.butterfly.yml",
+  "old": "      icon: fab fa-bilibili\n      text: 灌注咱喵谢谢喵\n      link: https://space.bilibili.com/551409211",
+  "new": "      icon: fab fa-github\n      text: GitHub\n      link: https://github.com/xieguaiwu"
+ },
+ {
+  "path": "/home/xieguiawu/Desktop/blog/_config.butterfly.yml",
+  "old": "  owner:\n    enable: true\n    since: 2025",
+  "new": "  owner:\n    enable: true\n    since: 2026"
+ },
+ {
+  "path": "/home/xieguiawu/Desktop/blog/_config.butterfly.yml",
+  "old": "    - <script src=\"/js/runtime.js\"></script>",
+  "new": "    - <script src=\"/js/runtime.js\"></script>\n    - <script src=\"/js/bg-art.js\"></script>"
+ }
+]

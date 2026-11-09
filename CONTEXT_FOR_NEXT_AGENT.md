@@ -126,18 +126,20 @@ pnpm run clean      # 清缓存（改配置后必须先 clean 再 build）
 
 > 站点 `url` 配的是 `https://xieguaiwu.github.io/blog`，所以本地预览地址带 `/blog/` 前缀。
 
-## 背景生成管线（仓库外）
+## 背景生成管线
 
-工作目录 `~/Desktop/blog-work/`（未纳入版本控制）：
+脚本在仓库内 `tools/backgrounds/`；画板母本在仓库外 `~/Desktop/blog-work/plates/`（45 张，约 80 MB，未纳版控）：
 
 | 文件 | 用途 |
 | :--- | :--- |
 | `win_art_inventory.tsv` | Windows 艺术素材全量清单（412 行） |
-| `prep_plates.py` | 归一化为画板（长边 ≤ 3200px，sRGB） |
+| `prep_plates.py` | 归一化为画板（长边 ≤ 3200px，sRGB；需自备 `art_src/`） |
 | `gen_backgrounds.py` | 16 套拼贴生成（A/B/C/D 四样式，含桌面与竖版） |
 | `export_web.py` | 导出 AVIF/JPG + 封面 + favicon + 头像 + OG 图 |
-| `shoot.py` | Playwright 多视口截图验证 |
+| `shoot.py` / `shoot_ag.py` | Playwright 多视口截图验证 |
 | `patch.py` | 精确字符串替换工具 |
+| `spec_butterfly.json` | 站点配置改写记录 |
+| `plates_manifest.json` | 画板清单与尺寸 |
 
 ## 已知环境问题
 

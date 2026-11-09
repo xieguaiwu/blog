@@ -1,0 +1,407 @@
+[
+ {
+  "file": "005-\u535a\u65af.jpg",
+  "src": "005-\u535a\u65af.tif",
+  "w": 2300,
+  "h": 3200,
+  "aspect": 0.719,
+  "src_bytes": 43469884,
+  "out_bytes": 3990637
+ },
+ {
+  "file": "018-\u535a\u65af.jpg",
+  "src": "018-\u535a\u65af.tif",
+  "w": 3200,
+  "h": 2104,
+  "aspect": 1.521,
+  "src_bytes": 184952932,
+  "out_bytes": 3263595
+ },
+ {
+  "file": "032-\u535a\u65af.jpg",
+  "src": "032-\u535a\u65af.tif",
+  "w": 3200,
+  "h": 3172,
+  "aspect": 1.009,
+  "src_bytes": 48920722,
+  "out_bytes": 4157870
+ },
+ {
+  "file": "1891_James_Ensor_Squelette_se_disputant_un_pendu.jpg",
+  "src": "1891_James_Ensor_Squelette_se_disputant_un_pendu.jpg",
+  "w": 1400,
+  "h": 1114,
+  "aspect": 1.257,
+  "src_bytes": 617518,
+  "out_bytes": 758283
+ },
+ {
+  "file": "Alexandre_Cabanel_-_Cl\u00e9op\u00e2tre_01.jpg",
+  "src": "Alexandre_Cabanel_-_Cl\u00e9op\u00e2tre_01.jpg",
+  "w": 3200,
+  "h": 2307,
+  "aspect": 1.387,
+  "src_bytes": 3391552,
+  "out_bytes": 1767104
+ },
+ {
+  "file": "Alexandre_Cabanel_-_Fallen_Angel.jpg",
+  "src": "Alexandre_Cabanel_-_Fallen_Angel.jpg",
+  "w": 3200,
+  "h": 2186,
+  "aspect": 1.464,
+  "src_bytes": 3094418,
+  "out_bytes": 1091442
+ },
+ {
+  "file": "Arnold_B\u00f6cklin_-_Die_Toteninsel_I_(Basel,_Kunstmuseum).jpg",
+  "src": "Arnold_B\u00f6cklin_-_Die_Toteninsel_I_(Basel,_Kunstmuseum).jpg",
+  "w": 3200,
+  "h": 2281,
+  "aspect": 1.403,
+  "src_bytes": 5119366,
+  "out_bytes": 1795792
+ },
+ {
+  "file": "Chakrasamvara_Mandala_MET_DP-15583-018.jpg",
+  "src": "Chakrasamvara_Mandala_MET_DP-15583-018.jpg",
+  "w": 3200,
+  "h": 2401,
+  "aspect": 1.333,
+  "src_bytes": 5300260,
+  "out_bytes": 3583285
+ },
+ {
+  "file": "Christ's_Entry_into_Brussels_in_1889.jpg",
+  "src": "Christ's_Entry_into_Brussels_in_1889.jpg",
+  "w": 3200,
+  "h": 1823,
+  "aspect": 1.755,
+  "src_bytes": 53006136,
+  "out_bytes": 3910734
+ },
+ {
+  "file": "Cloches_du_soir.jpg",
+  "src": "Cloches_du_soir.jpg",
+  "w": 2143,
+  "h": 3200,
+  "aspect": 0.67,
+  "src_bytes": 2258598,
+  "out_bytes": 2302107
+ },
+ {
+  "file": "Courtyard_with_Lunatics_by_Goya_1794.jpg",
+  "src": "Courtyard_with_Lunatics_by_Goya_1794.jpg",
+  "w": 1498,
+  "h": 2045,
+  "aspect": 0.733,
+  "src_bytes": 293657,
+  "out_bytes": 464275
+ },
+ {
+  "file": "David_Roberts_Temple_Island_Philae.jpg",
+  "src": "David_Roberts_Temple_Island_Philae.jpg",
+  "w": 2100,
+  "h": 1520,
+  "aspect": 1.382,
+  "src_bytes": 1371713,
+  "out_bytes": 1081231
+ },
+ {
+  "file": "Delacroix_-_La_Mort_de_Sardanapale_(1827).jpg",
+  "src": "Delacroix_-_La_Mort_de_Sardanapale_(1827).jpg",
+  "w": 3200,
+  "h": 2515,
+  "aspect": 1.272,
+  "src_bytes": 4530883,
+  "out_bytes": 3451744
+ },
+ {
+  "file": "DieWindsbraut-\u98ce\u4e2d\u65b0\u5a18.jpg",
+  "src": "DieWindsbraut-\u98ce\u4e2d\u65b0\u5a18.jpg",
+  "w": 1200,
+  "h": 991,
+  "aspect": 1.211,
+  "src_bytes": 221868,
+  "out_bytes": 402037
+ },
+ {
+  "file": "Echo_and_Narcissus.jpg",
+  "src": "Echo_and_Narcissus.jpg",
+  "w": 2190,
+  "h": 1274,
+  "aspect": 1.719,
+  "src_bytes": 1065439,
+  "out_bytes": 1184304
+ },
+ {
+  "file": "Francisco_de_Goya,_Saturno_devorando_a_su_hijo_(1819-1823).jpg",
+  "src": "Francisco_de_Goya,_Saturno_devorando_a_su_hijo_(1819-1823).jpg",
+  "w": 1661,
+  "h": 3051,
+  "aspect": 0.544,
+  "src_bytes": 7916426,
+  "out_bytes": 3160261
+ },
+ {
+  "file": "Francisco_de_Goya_y_Lucientes_-_Witches'_Sabbath_(The_Great_He-Goat).jpg",
+  "src": "Francisco_de_Goya_y_Lucientes_-_Witches'_Sabbath_(The_Great_He-Goat).jpg",
+  "w": 3051,
+  "h": 966,
+  "aspect": 3.158,
+  "src_bytes": 2947802,
+  "out_bytes": 1106321
+ },
+ {
+  "file": "Henry_Ossawa_Tanner,_The_Banjo_Lesson_(darker).jpg",
+  "src": "Henry_Ossawa_Tanner,_The_Banjo_Lesson_(darker).jpg",
+  "w": 2000,
+  "h": 2838,
+  "aspect": 0.705,
+  "src_bytes": 3960538,
+  "out_bytes": 1433668
+ },
+ {
+  "file": "Hesiod_and_the_Muse.jpg",
+  "src": "Hesiod_and_the_Muse.jpg",
+  "w": 1602,
+  "h": 2800,
+  "aspect": 0.572,
+  "src_bytes": 2297835,
+  "out_bytes": 1986151
+ },
+ {
+  "file": "Hyacinthus_and_Zephyrus_3.jpg",
+  "src": "Hyacinthus_and_Zephyrus_3.jpg",
+  "w": 1558,
+  "h": 1561,
+  "aspect": 0.998,
+  "src_bytes": 1668778,
+  "out_bytes": 821130
+ },
+ {
+  "file": "Kongokai.jpg",
+  "src": "Kongokai.jpg",
+  "w": 2803,
+  "h": 3200,
+  "aspect": 0.876,
+  "src_bytes": 5894137,
+  "out_bytes": 3772867
+ },
+ {
+  "file": "Kreuzigung\u88ab\u9489\u5728\u5341\u5b57\u67b6\u4e0a.jpg",
+  "src": "Kreuzigung\u88ab\u9489\u5728\u5341\u5b57\u67b6\u4e0a.jpg",
+  "w": 1200,
+  "h": 955,
+  "aspect": 1.257,
+  "src_bytes": 152359,
+  "out_bytes": 272821
+ },
+ {
+  "file": "Kuoleman_Puutarha_by_Hugo_Simberg.jpg",
+  "src": "Kuoleman_Puutarha_by_Hugo_Simberg.jpg",
+  "w": 3200,
+  "h": 2472,
+  "aspect": 1.294,
+  "src_bytes": 4626595,
+  "out_bytes": 4505160
+ },
+ {
+  "file": "Kylix_Theseus_Aison_MNA_Inv11365_n1.jpg",
+  "src": "Kylix_Theseus_Aison_MNA_Inv11365_n1.jpg",
+  "w": 2025,
+  "h": 2025,
+  "aspect": 1.0,
+  "src_bytes": 3120675,
+  "out_bytes": 1765983
+ },
+ {
+  "file": "L'Intrigue_(James_Ensor,_1890).jpg",
+  "src": "L'Intrigue_(James_Ensor,_1890).jpg",
+  "w": 3200,
+  "h": 1913,
+  "aspect": 1.673,
+  "src_bytes": 6527734,
+  "out_bytes": 3208676
+ },
+ {
+  "file": "Luzifer_(Lucifer)_painting_by_Franz_von_Stuck_1890_National_Gallery_in_Sofia.jpg",
+  "src": "Luzifer_(Lucifer)_painting_by_Franz_von_Stuck_1890_National_Gallery_in_Sofia.jpg",
+  "w": 3031,
+  "h": 3200,
+  "aspect": 0.947,
+  "src_bytes": 980882,
+  "out_bytes": 2421271
+ },
+ {
+  "file": "Narcissus_on_a_Pompeian_fresco.jpg",
+  "src": "Narcissus_on_a_Pompeian_fresco.jpg",
+  "w": 1462,
+  "h": 1600,
+  "aspect": 0.914,
+  "src_bytes": 1262841,
+  "out_bytes": 1691164
+ },
+ {
+  "file": "Simberg,_fresco_The_Wounded_Angel.jpg",
+  "src": "Simberg,_fresco_The_Wounded_Angel.jpg",
+  "w": 700,
+  "h": 588,
+  "aspect": 1.19,
+  "src_bytes": 133549,
+  "out_bytes": 129175
+ },
+ {
+  "file": "Stuck,_Franz_von_-_Salome_-_Google_Art_Project.jpg",
+  "src": "Stuck,_Franz_von_-_Salome_-_Google_Art_Project.jpg",
+  "w": 2624,
+  "h": 3200,
+  "aspect": 0.82,
+  "src_bytes": 7126316,
+  "out_bytes": 2631215
+ },
+ {
+  "file": "The_Apparition,_Gustave_Moreau_1876.jpg",
+  "src": "The_Apparition,_Gustave_Moreau_1876.jpg",
+  "w": 1684,
+  "h": 2500,
+  "aspect": 0.674,
+  "src_bytes": 4837261,
+  "out_bytes": 4734357
+ },
+ {
+  "file": "The_Roses_of_Heliogabalus.jpg",
+  "src": "The_Roses_of_Heliogabalus.jpg",
+  "w": 3200,
+  "h": 1970,
+  "aspect": 1.624,
+  "src_bytes": 8839504,
+  "out_bytes": 3181049
+ },
+ {
+  "file": "Van_Gogh_-_Trauernder_alter_Mann.jpg",
+  "src": "Van_Gogh_-_Trauernder_alter_Mann.jpg",
+  "w": 2433,
+  "h": 3200,
+  "aspect": 0.76,
+  "src_bytes": 9221815,
+  "out_bytes": 4479443
+ },
+ {
+  "file": "VaterHirsch.jpg",
+  "src": "VaterHirsch.jpg",
+  "w": 1072,
+  "h": 1200,
+  "aspect": 0.893,
+  "src_bytes": 222708,
+  "out_bytes": 396409
+ },
+ {
+  "file": "Warren_Cup_BM_GR_1999.4-26.1_n1.jpg",
+  "src": "Warren_Cup_BM_GR_1999.4-26.1_n1.jpg",
+  "w": 3200,
+  "h": 2560,
+  "aspect": 1.25,
+  "src_bytes": 6592513,
+  "out_bytes": 2594252
+ },
+ {
+  "file": "William-Adolphe_Bouguereau_(1825-1905)_-_Flora_And_Zephyr_(1875).jpg",
+  "src": "William-Adolphe_Bouguereau_(1825-1905)_-_Flora_And_Zephyr_(1875).jpg",
+  "w": 1782,
+  "h": 1812,
+  "aspect": 0.983,
+  "src_bytes": 183648,
+  "out_bytes": 455189
+ },
+ {
+  "file": "danteandvirgil.jpg",
+  "src": "danteandvirgil.jpg",
+  "w": 907,
+  "h": 640,
+  "aspect": 1.417,
+  "src_bytes": 143037,
+  "out_bytes": 188443
+ },
+ {
+  "file": "war-1896.jpg",
+  "src": "war-1896.jpg",
+  "w": 452,
+  "h": 600,
+  "aspect": 0.753,
+  "src_bytes": 54948,
+  "out_bytes": 98613
+ },
+ {
+  "file": "\u00c4ngs\u00e4lvor_-_Nils_Blomm\u00e9r_1850.jpg",
+  "src": "\u00c4ngs\u00e4lvor_-_Nils_Blomm\u00e9r_1850.jpg",
+  "w": 920,
+  "h": 713,
+  "aspect": 1.29,
+  "src_bytes": 237301,
+  "out_bytes": 197942
+ },
+ {
+  "file": "\u5de5\u574a\u5e93.jpg",
+  "src": "\u5de5\u574a\u5e93.jfif",
+  "w": 1530,
+  "h": 2048,
+  "aspect": 0.747,
+  "src_bytes": 1535084,
+  "out_bytes": 2277460
+ },
+ {
+  "file": "\u964d\u4e34.jpg",
+  "src": "\u964d\u4e34.png",
+  "w": 1920,
+  "h": 1080,
+  "aspect": 1.778,
+  "src_bytes": 2506630,
+  "out_bytes": 372163
+ },
+ {
+  "file": "\u9b54\u5c71\u827a\u672f(1).jpg",
+  "src": "\u9b54\u5c71\u827a\u672f(1).jpeg",
+  "w": 1024,
+  "h": 1024,
+  "aspect": 1.0,
+  "src_bytes": 407900,
+  "out_bytes": 361429
+ },
+ {
+  "file": "\u9b54\u5c71\u827a\u672f(2).jpg",
+  "src": "\u9b54\u5c71\u827a\u672f(2).jpeg",
+  "w": 1024,
+  "h": 1024,
+  "aspect": 1.0,
+  "src_bytes": 362396,
+  "out_bytes": 321671
+ },
+ {
+  "file": "\u9b54\u5c71\u827a\u672f(3).jpg",
+  "src": "\u9b54\u5c71\u827a\u672f(3).jpeg",
+  "w": 1024,
+  "h": 1024,
+  "aspect": 1.0,
+  "src_bytes": 396751,
+  "out_bytes": 359619
+ },
+ {
+  "file": "\u9b54\u5c71\u827a\u672f(4).jpg",
+  "src": "\u9b54\u5c71\u827a\u672f(4).jpeg",
+  "w": 1024,
+  "h": 1024,
+  "aspect": 1.0,
+  "src_bytes": 381888,
+  "out_bytes": 340113
+ },
+ {
+  "file": "Isle of Death.jpg",
+  "src": "Isle of Death.jpg",
+  "w": 2560,
+  "h": 1322,
+  "aspect": 1.936,
+  "src_bytes": 238013,
+  "out_bytes": 538934
+ }
+]
